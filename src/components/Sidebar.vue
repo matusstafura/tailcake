@@ -6,6 +6,7 @@
     <router-link to="creator" class="block mb-2">Temp</router-link>
     <router-link to="creator" class="block mb-2">Temp</router-link>
     <router-link to="creator" class="block mb-2">Temp</router-link>
+    <button title="hello!">Button</button>
   </div>
 </template>
 

@@ -18,10 +18,12 @@
     <div>
       <!-- <p>{{ sourceCode }}</p> -->
     </div>
+    <Button></Button>
   </div>
 </template>
 
 <script>
+import Button from "./Button.vue";
 export default {
   data() {
     return {
@@ -35,6 +37,7 @@ export default {
       this.sourceCode;
     },
   },
+  components: { Button },
 };
 </script>
 
