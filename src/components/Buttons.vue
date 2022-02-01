@@ -1,5 +1,5 @@
 <template>
-  <div class="p-8">
+  <div>
     <h1 class="text-3xl py-4">{{ component }}</h1>
 
     <div class="grid grid-cols-2 col-auto divide-x">
