@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="text-3xl py-4">Showcase</h1>
-    <Button></Button>
+    <p v-show="mode"><Button></Button></p>
     <Blog></Blog>
   </div>
 </template>
@@ -10,6 +10,7 @@
 import Button from "./Button.vue";
 import Blog from "./Blog.vue";
 export default {
+  props: ["mode"],
   components: { Button, Blog },
 };
 </script>

@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
+import Showcase from "@/components/Showcase.vue";
 import Home from "../views/Home.vue";
-import Buttons from "@/components/Buttons.vue";
 import Creator from "@/components/Creator.vue";
 
 const routes = [
@@ -10,9 +10,10 @@ const routes = [
     component: Home,
   },
   {
-    path: "/buttons",
-    name: "buttons",
-    component: Buttons,
+    path: "/showcase",
+    name: "showcase",
+    props: true,
+    component: Showcase,
   },
   {
     path: "/creator",
