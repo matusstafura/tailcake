@@ -6,17 +6,18 @@
       <div>
         <p v-html="sourceCode"></p>
       </div>
-      <div>
-        <textarea
-          rows="5"
-          cols="40"
-          v-model="sourceCode"
-          class="border border-gray-300 w-128 p-4 rounded h-full text-xl"
-        />
-      </div>
     </div>
     <div>
       <!-- <p>{{ sourceCode }}</p> -->
+    </div>
+    <hr class="my-4 w-full" />
+    <div class="bt-2">
+      <textarea
+        rows="5"
+        cols="40"
+        v-model="sourceCode"
+        class="border border-gray-300 w-128 p-4 h-screen rounded w-full text-xl"
+      />
     </div>
   </div>
 </template>

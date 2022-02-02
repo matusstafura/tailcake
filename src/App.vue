@@ -2,7 +2,7 @@
   <Navigation></Navigation>
   <div class="flex">
     <Sidebar></Sidebar>
-    <div id="content" class="p-6">
+    <div id="content" class="p-6 w-full">
       <router-view />
     </div>
   </div>
