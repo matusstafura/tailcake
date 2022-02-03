@@ -4,6 +4,7 @@ import Home from "../views/Home.vue";
 import Creator from "@/components/Creator.vue";
 import Blog from "@/components/Blog.vue";
 import Button from "@/components/Button.vue";
+import Header from "@/components/Header.vue";
 
 const routes = [
   {
@@ -25,6 +26,11 @@ const routes = [
     path: "/blog",
     name: "blog",
     component: Blog,
+  },
+  {
+    path: "/header",
+    name: "header",
+    component: Header,
   },
   {
     path: "/creator",

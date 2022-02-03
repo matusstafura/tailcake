@@ -1,9 +1,9 @@
 <template>
   <div id="nav" class="bg-blue-100 p-4 flex justify-end">
     <SourceCode @sourceCode="show"></SourceCode>
-    <button @click="toggleDarkMode" class="px-4">
-      Nightmode {{ toggleDark }}
-    </button>
+    <!-- <button @click="toggleDarkMode" class="px-4"> -->
+    <!-- Nightmode {{ toggleDark }} -->
+    <!-- </button> -->
     <router-link to="/" class="px-4">Home</router-link>
     <router-link to="/about" class="px-4">About</router-link>
   </div>

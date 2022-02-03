@@ -1,19 +1,17 @@
 <template>
   <div>
-    <div v-html="component" v-show="!mode"></div>
-    <div v-show="mode">
-      {{ component }}
-    </div>
+    <Element :mode="mode" :code="code"></Element>
   </div>
 </template>
 
 <script>
+import Element from "./Element.vue";
 export default {
   name: "Button",
   props: ["mode"],
   data() {
     return {
-      component: `<section>
+      code: `<section>
 <div class="container">
 <div class="flex">
 
@@ -67,6 +65,7 @@ export default {
 </section>`,
     };
   },
+  components: { Element },
 };
 </script>
 
