@@ -12,8 +12,8 @@ const routes = [
   {
     path: "/showcase",
     name: "showcase",
-    props: true,
     component: Showcase,
+    props: true,
   },
   {
     path: "/creator",

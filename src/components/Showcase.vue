@@ -1,8 +1,8 @@
 <template>
   <div>
     <h1 class="text-3xl py-4">Showcase</h1>
-    <p v-show="mode"><Button></Button></p>
-    <Blog></Blog>
+    <Button :mode="mode"></Button>
+    <Blog :mode="mode"></Blog>
   </div>
 </template>
 
