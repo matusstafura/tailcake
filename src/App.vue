@@ -1,6 +1,6 @@
 <template>
   <div id="nav" class="bg-blue-100 p-4 flex justify-end">
-    <SourceCode @sourceCode="test"></SourceCode>
+    <SourceCode @sourceCode="show"></SourceCode>
     <button @click="toggleDarkMode" class="px-4">
       Nightmode {{ toggleDark }}
     </button>
@@ -30,7 +30,7 @@ export default {
     SourceCode,
   },
   methods: {
-    test(event) {
+    show(event) {
       this.mode = event;
     },
   },

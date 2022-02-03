@@ -1,19 +1,7 @@
 <template>
   <div v-html="component" v-show="!mode"></div>
   <div v-show="mode">
-    <pre
-      style="
-        display: block;
-        overflow-x: auto;
-        padding: 0.5em;
-        color: rgb(0, 0, 0);
-        background: rgb(248, 248, 255);
-      "
-    >
-      <code style="float: left; padding-right: 10px;">
-      {{ component }}
-      </code>
-    </pre>
+    {{ component }}
   </div>
 </template>
 
@@ -32,8 +20,4 @@ export default {
 };
 </script>
 
-<style scoped>
-code {
-  font-family: "Space Mono", monospace;
-}
-</style>
+<style scoped></style>
