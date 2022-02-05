@@ -1,45 +1,11 @@
 <template>
-  <div name="buttonName" :class="dark ? 'dark' : ''">
-    <div class="flex mb-4 justify-between">
-      <h2 class="text-xl font-semibold justify-start">{{ title }}</h2>
-      <div class="mt-0">
-        <button>RTA(if true)</button>
-        <button @click="showCode" class="ml-4">Show Code</button>
-        <button @click="darkMode" class="ml-4">Dark Mode</button>
-        <button class="ml-4">Copy Code</button>
-      </div>
-    </div>
-    <div class="bg-gxray-100 p-10 flex language-html">
-      <div v-html="code"></div>
-    </div>
-    <div v-show="active">
-      <highlightjs language="js" :code="code" class="text-sm" />
-    </div>
-    <div></div>
-  </div>
+  <ButtonPrimary></ButtonPrimary>
 </template>
 
 <script>
+import ButtonPrimary from "./ButtonPrimary.vue";
 export default {
-  name: "Button2",
-  data() {
-    return {
-      code: `<button class="bg-blue-400 dark:bg-white dark:text-black px-6 py-3 text-white font-bold uppercase rounded shadow-lg hover:bg-blue-500 focus:bg-blue-700">
-  Button
-</button>`,
-      active: false,
-      dark: "",
-      title: "Testing Button",
-    };
-  },
-  methods: {
-    showCode() {
-      this.active = !this.active;
-    },
-    darkMode() {
-      this.dark = !this.dark;
-    },
-  },
+  components: { ButtonPrimary },
 };
 </script>
 
