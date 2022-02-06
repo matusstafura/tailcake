@@ -1,23 +1,11 @@
 <template>
-  <div>
-    <Element :mode="mode" :code="code"></Element>
-  </div>
+  <ButtonPrimary></ButtonPrimary>
 </template>
 
 <script>
-import Element from "./Element.vue";
+import ButtonPrimary from "./Buttons/ButtonPrimary.vue";
 export default {
-  name: "Button",
-  props: ["mode"],
-  data() {
-    return {
-      code: `
-  <button class="bg-blue-400 dark:bg-white px-6 py-3 text-white font-bold uppercase rounded shadow-lg hover:bg-blue-500 focus:bg-blue-700" > 
-      Button
-  </button>`,
-    };
-  },
-  components: { Element },
+  components: { ButtonPrimary },
 };
 </script>
 

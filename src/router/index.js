@@ -1,10 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Showcase from "@/components/Showcase.vue";
 import Home from "../views/Home.vue";
 import Creator from "@/components/Creator.vue";
 import Blog from "@/components/Blog.vue";
 import Button from "@/components/Button.vue";
-import Button2 from "@/components/Button2.vue";
 import Header from "@/components/Header.vue";
 
 const routes = [
@@ -14,19 +12,9 @@ const routes = [
     component: Home,
   },
   {
-    path: "/showcase",
-    name: "showcase",
-    component: Showcase,
-  },
-  {
-    path: "/button",
-    name: "button",
+    path: "/buttons",
+    name: "buttons",
     component: Button,
-  },
-  {
-    path: "/buttonv2",
-    name: "buttonv2",
-    component: Button2,
   },
   {
     path: "/blog",

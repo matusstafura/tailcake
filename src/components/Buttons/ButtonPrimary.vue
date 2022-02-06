@@ -1,11 +1,11 @@
 <template>
-  <element-view :title="title" :code="code"></element-view>
+  <Element :title="title" :code="code"></Element>
 </template>
 
 <script>
-import ElementView from "./ElementView.vue";
+import Element from "../Element.vue";
 export default {
-  components: { ElementView },
+  components: { Element },
   name: "Button2",
   data() {
     return {

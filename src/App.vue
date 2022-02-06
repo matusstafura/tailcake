@@ -10,29 +10,17 @@
   <div class="flex">
     <Sidebar></Sidebar>
     <div id="content" class="p-6 w-full">
-      <router-view :mode="mode"></router-view>
+      <router-view></router-view>
     </div>
   </div>
 </template>
 
 <script>
 import Sidebar from "@/components/Sidebar.vue";
-import SourceCode from "./components/SourceCode.vue";
 
 export default {
-  data() {
-    return {
-      mode: false,
-    };
-  },
   components: {
     Sidebar,
-    SourceCode,
-  },
-  methods: {
-    show(event) {
-      this.mode = event;
-    },
   },
 };
 </script>
