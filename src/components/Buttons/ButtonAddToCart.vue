@@ -6,13 +6,13 @@
 import Element from "../Element.vue";
 export default {
   components: { Element },
-  name: "Primary Button",
+  name: "Add To Cart Button",
   data() {
     return {
-      code: `<button class="px-6 py-3 font-bold text-white uppercase bg-blue-400 rounded shadow-lg dark:bg-white dark:text-black hover:bg-blue-500">
-  Button
+      code: `<button class="px-6 py-3 text-black bg-yellow-300 rounded shadow-lg hover:bg-yellow-400">
+  Add To Cart
 </button>`,
-      title: "Primary Button",
+      title: "Add To Cart Button",
     };
   },
 };

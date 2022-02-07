@@ -6,13 +6,13 @@
 import Element from "../Element.vue";
 export default {
   components: { Element },
-  name: "Primary Button",
+  name: "Warning Button",
   data() {
     return {
-      code: `<button class="px-6 py-3 font-bold text-white uppercase bg-blue-400 rounded shadow-lg dark:bg-white dark:text-black hover:bg-blue-500">
-  Button
+      code: `<button class="px-6 py-3 font-bold text-white uppercase bg-red-400 rounded shadow-lg hover:bg-red-500">
+  Danger
 </button>`,
-      title: "Primary Button",
+      title: "Warning Button",
     };
   },
 };
