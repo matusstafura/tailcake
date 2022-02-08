@@ -4,6 +4,7 @@ import Creator from "@/components/Creator.vue";
 import Blog from "@/components/Blog.vue";
 import Button from "@/components/Button.vue";
 import Header from "@/components/Header.vue";
+import Commerce from "@/components/Commerce.vue";
 
 const routes = [
   {
@@ -15,6 +16,11 @@ const routes = [
     path: "/buttons",
     name: "buttons",
     component: Button,
+  },
+  {
+    path: "/commerce",
+    name: "commerce",
+    component: Commerce,
   },
   {
     path: "/blog",

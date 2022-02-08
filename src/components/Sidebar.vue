@@ -1,11 +1,12 @@
 <template>
-  <div id="sidebar" class="w-64 bg-gray-100 px-4 py-4 h-screen">
-    <h2 class="text-lg font-bold pb-4">Elements</h2>
+  <div id="sidebar" class="w-64 h-screen px-4 py-4 bg-gray-100">
+    <h2 class="pb-4 text-lg font-bold">Elements</h2>
     <router-link to="buttons" class="block mb-4">Buttons</router-link>
-    <h2 class="text-lg font-bold pb-4">Components</h2>
+    <h2 class="pb-4 text-lg font-bold">Components</h2>
     <router-link to="blog" class="block mb-4">Blog</router-link>
     <router-link to="header" class="block mb-4">Header</router-link>
-    <h2 class="text-lg font-bold pb-4">DevTools</h2>
+    <router-link to="commerce" class="block mb-4">Commerce</router-link>
+    <h2 class="pb-4 text-lg font-bold">DevTools</h2>
     <router-link to="creator" class="block mb-2">Creator</router-link>
   </div>
 </template>
