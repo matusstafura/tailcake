@@ -44,15 +44,14 @@ export default {
 <hr/ class="mb-4">
 
 <ul class="flex font-light leading-9 text-gray-600 dark:text-white">
-<li class="w-8 h-8 mr-2 bg-blue-500 rounded shadow"></li>
-<li class="w-8 h-8 mr-2 bg-green-500 rounded shadow"></li>
+<li class="w-8 h-8 mr-2 bg-white rounded shadow"></li>
 <li class="w-8 h-8 mr-2 bg-yellow-500 rounded shadow"></li>
-<li class="w-8 h-8 mr-2 rounded shadow bg-white-500"></li>
 <li class="w-8 h-8 mr-2 bg-red-500 rounded shadow"></li>
-<li class="w-8 h-8 mr-2 bg-gray-500 rounded shadow"></li>
 <li class="w-8 h-8 mr-2 bg-orange-600 rounded shadow"></li>
-<li class="w-8 h-8 mr-2 bg-black rounded shadow"></li>
 <li class="w-8 h-8 mr-2 bg-green-500 rounded shadow"></li>
+<li class="w-8 h-8 mr-2 bg-blue-500 rounded shadow"></li>
+<li class="w-8 h-8 mr-2 bg-gray-500 rounded shadow"></li>
+<li class="w-8 h-8 mr-2 bg-black rounded shadow"></li>
 
 </ul>
 
