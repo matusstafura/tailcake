@@ -56,4 +56,10 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+textarea {
+  font-family: "Inconsolata";
+  font-size: 16px;
+  background-color: #f5f5f5;
+}
+</style>
