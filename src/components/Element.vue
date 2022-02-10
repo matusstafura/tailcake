@@ -2,8 +2,7 @@
   <div :class="dark ? 'dark' : ''">
     <div class="flex justify-between mb-4">
       <h2 class="justify-start text-xl font-semibold">{{ title }}</h2>
-      <div class="mt-0">
-        <button>RTA(if true)</button>
+      <div class="flex mt-0">
         <button @click="showCode" class="ml-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +47,13 @@
             />
           </svg>
         </button>
-        {{ message }}
+
+        <p
+          class="absolute p-4 mt-4 text-sm text-white bg-blue-300"
+          v-if="message"
+        >
+          {{ message }}
+        </p>
 
         <button @click="copyCode" v-clipboard:copy="msg" class="ml-4">
           <svg

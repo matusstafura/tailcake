@@ -17,10 +17,8 @@ export default {
 <div class="mb-6 dark:text-white"> 
 
 <div>
-<p class="mb-4 font-semibold tracking-widest uppercase">Collections</p>
+<p class="pb-4 mb-4 font-semibold tracking-widest uppercase border-b">Collections</p>
 </div>
-
-<hr/ class="mb-4">
 
 <ul class="font-light leading-9 text-gray-600 dark:text-white">
 <li><a href="#" class="block hover:text-blue-400">Jeans</a></li>
@@ -38,10 +36,8 @@ export default {
 <div class="mb-6 dark:text-white"> 
 
 <div>
-<p class="mb-4 font-semibold tracking-widest uppercase">Color</p>
+<p class="pb-4 mb-4 font-semibold tracking-widest uppercase border-b">Color</p>
 </div>
-
-<hr/ class="mb-4">
 
 <ul class="flex font-light leading-9 text-gray-600 dark:text-white">
 <li class="w-8 h-8 mr-2 bg-white rounded shadow"><a href="#" class="block w-8 h-8 hover:shadow-lg"></a></li>
@@ -61,20 +57,15 @@ export default {
 <div class="mb-6 dark:text-white"> 
 
 <div>
-<p class="mb-4 font-semibold tracking-widest uppercase">SIZE</p>
+<p class="pb-4 mb-4 font-semibold tracking-widest uppercase border-b">SIZE</p>
 </div>
 
-<hr/ class="mb-4">
-
 <ul class="flex font-light leading-9 text-gray-600 dark:text-white">
-
 <li class="w-8 mr-2 text-center bg-gray-100 rounded shadow dark:bg-gray-400 hover:bg-blue-200 dark:hover:bg-blue-300"><a href="#" class="block">XS</a></li>
 <li class="w-8 mr-2 text-center bg-gray-100 rounded shadow dark:bg-gray-400 hover:bg-blue-200 dark:hover:bg-blue-300"><a href="#" class="block">S</a></li>
 <li class="w-8 mr-2 text-center bg-gray-100 rounded shadow dark:bg-gray-400 hover:bg-blue-200 dark:hover:bg-blue-300"><a href="#" class="block">M</a></li>
 <li class="w-8 mr-2 text-center bg-gray-100 rounded shadow dark:bg-gray-400 hover:bg-blue-200 dark:hover:bg-blue-300"><a href="#" class="block">L</a></li>
 <li class="w-8 mr-2 text-center bg-gray-100 rounded shadow dark:bg-gray-400 hover:bg-blue-200 dark:hover:bg-blue-300"><a href="#" class="block">XL</a></li>
-
-
 </ul>
 
 </div>
@@ -84,19 +75,15 @@ export default {
 <div class="mb-6 dark:text-white"> 
 
 <div>
-<p class="mb-4 font-semibold tracking-widest uppercase">TAGS</p>
+<p class="pb-4 mb-4 font-semibold tracking-widest uppercase border-b">TAGS</p>
 </div>
 
-<hr/ class="mb-4">
-
 <ul class="flex font-light leading-9 text-gray-600 dark:text-white">
-
 <li class="mr-2"><a href="#" class="hover:text-blue-400">summer</a></li>
 <li class="mr-2"><a href="#" class="hover:text-blue-400">stripped</a></li>
 <li class="mr-2"><a href="#" class="hover:text-blue-400">polo</a></li>
 <li class="mr-2"><a href="#" class="hover:text-blue-400">trendy</a></li>
 <li class="mr-2"><a href="#" class="hover:text-blue-400">hot</a></li>
-
 </ul>
 
 </div>
