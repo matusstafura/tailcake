@@ -5,6 +5,7 @@ import Blog from "@/components/Blog.vue";
 import Button from "@/components/Button.vue";
 import Header from "@/components/Header.vue";
 import Commerce from "@/components/Commerce.vue";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 const routes = [
   {
@@ -16,6 +17,11 @@ const routes = [
     path: "/buttons",
     name: "buttons",
     component: Button,
+  },
+  {
+    path: "/breadcrumbs",
+    name: "breadcrumbs",
+    component: Breadcrumbs,
   },
   {
     path: "/commerce",
