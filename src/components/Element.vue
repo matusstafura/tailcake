@@ -1,5 +1,5 @@
 <template>
-  <div :class="dark ? 'dark' : ''">
+  <div :class="dark ? 'dark' : ''" class="mb-8">
     <div class="flex justify-between mb-4">
       <h2 class="justify-start text-xl font-semibold">{{ title }}</h2>
       <div class="flex mt-0">
@@ -73,7 +73,7 @@
         </button>
       </div>
     </div>
-    <div class="flex p-10 bg-gxray-100 language-html dark:bg-gray-600">
+    <div class="w-full bg-gxray-100 language-html dark:bg-gray-600">
       <div v-html="code"></div>
     </div>
     <div v-show="active">
