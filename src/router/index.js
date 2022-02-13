@@ -3,7 +3,7 @@ import Home from "../views/Home.vue";
 import Creator from "@/components/Creator.vue";
 import Blog from "@/components/Blog.vue";
 import Button from "@/components/Button.vue";
-import Header from "@/components/Header.vue";
+import Navbar from "@/components/Navbar.vue";
 import Commerce from "@/components/Commerce.vue";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
@@ -34,9 +34,9 @@ const routes = [
     component: Blog,
   },
   {
-    path: "/header",
-    name: "header",
-    component: Header,
+    path: "/navbars",
+    name: "navbars",
+    component: Navbar,
   },
   {
     path: "/creator",

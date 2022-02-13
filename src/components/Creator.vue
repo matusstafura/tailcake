@@ -31,7 +31,18 @@ export default {
 <a href="#" class="hover:text-blue-500"><img src="https://cdn.shopify.com/s/files/1/0130/5041/3114/products/TailoredFitMesh-PanelPolo_4_560x.jpg?v=1626266062" />
 <div class="mt-4">
   <h3>Shirt</h3>
-  <p class="text-gray-500">Navy Blue</p>
+  <p class="text-sm text-gray-500">Navy Blue</p>
+  <p class="text-xl">1220kr</p>
+</div>
+</a>
+</div>
+
+<div class="">
+<a href="#" class="hover:text-blue-500"><img src="https://cdn.shopify.com/s/files/1/0130/5041/3114/products/Relaxed-FitCottonShirt_4_560x.jpg?v=1626266842" />
+<div class="mt-4">
+  <h3>Shirt</h3>
+  <p class="text-sm text-gray-500">Navy Blue</p>
+  <p class="text-xl">1220kr</p>
 </div>
 </a>
 </div>
@@ -40,7 +51,8 @@ export default {
 <a href="#" class="hover:text-blue-500"><img src="https://cdn.shopify.com/s/files/1/0130/5041/3114/products/TailoredFitMesh-PanelPolo_4_560x.jpg?v=1626266062" />
 <div class="mt-4">
   <h3>Shirt</h3>
-  <p class="text-gray-500">Navy Blue</p>
+  <p class="text-sm text-gray-500">Navy Blue</p>
+  <p class="text-xl">1220kr</p>
 </div>
 </a>
 </div>
@@ -49,7 +61,8 @@ export default {
 <a href="#" class="hover:text-blue-500"><img src="https://cdn.shopify.com/s/files/1/0130/5041/3114/products/TailoredFitMesh-PanelPolo_4_560x.jpg?v=1626266062" />
 <div class="mt-4">
   <h3>Shirt</h3>
-  <p class="text-gray-500">Navy Blue</p>
+  <p class="text-sm text-gray-500">Navy Blue</p>
+  <p class="text-xl">1220kr</p>
 </div>
 </a>
 </div>
@@ -58,23 +71,15 @@ export default {
 <a href="#" class="hover:text-blue-500"><img src="https://cdn.shopify.com/s/files/1/0130/5041/3114/products/TailoredFitMesh-PanelPolo_4_560x.jpg?v=1626266062" />
 <div class="mt-4">
   <h3>Shirt</h3>
-  <p class="text-gray-500">Navy Blue</p>
-</div>
-</a>
-</div>
-
-<div class="">
-<a href="#" class="hover:text-blue-500"><img src="https://cdn.shopify.com/s/files/1/0130/5041/3114/products/TailoredFitMesh-PanelPolo_4_560x.jpg?v=1626266062" />
-<div class="mt-4">
-  <h3>Shirt</h3>
-  <p class="text-gray-500">Navy Blue</p>
+  <p class="text-sm text-gray-500">Navy Blue</p>
+  <p class="text-xl">1220kr</p>
 </div>
 </a>
 </div>
 
 </div>
 
-</div>`,
+</div> `,
     };
   },
   methods: {

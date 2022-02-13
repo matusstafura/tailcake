@@ -1,15 +1,19 @@
 <template>
-  <ButtonPrimary></ButtonPrimary>
-  <button-warning></button-warning>
-  <button-add-to-cart></button-add-to-cart>
+  <Button1></Button1>
+  <Button2></Button2>
+  <Button3></Button3>
 </template>
 
 <script>
-import ButtonAddToCart from "./Buttons/ButtonAddToCart.vue";
-import ButtonPrimary from "./Buttons/ButtonPrimary.vue";
-import ButtonWarning from "./Buttons/ButtonWarning.vue";
+import Button1 from "./Buttons/Button1.vue";
+import Button2 from "./Buttons/Button2.vue";
+import Button3 from "./Buttons/Button3.vue";
 export default {
-  components: { ButtonWarning, ButtonPrimary, ButtonAddToCart },
+  components: {
+    Button1,
+    Button2,
+    Button3,
+  },
 };
 </script>
 
