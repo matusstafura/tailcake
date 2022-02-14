@@ -5,6 +5,7 @@
     <router-link to="breadcrumbs" class="block mb-4">Breadcrumbs</router-link>
     <h2 class="pb-4 text-lg font-bold">Components</h2>
     <router-link to="blog" class="block mb-4">Blog</router-link>
+    <router-link to="body" class="block mb-4">Body</router-link>
     <router-link to="navbars" class="block mb-4">Navbars</router-link>
     <router-link to="commerce" class="block mb-4">Commerce</router-link>
     <h2 class="pb-4 text-lg font-bold">DevTools</h2>

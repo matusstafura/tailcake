@@ -1,7 +1,7 @@
 <template>
   <div>
     <button @click="darkMode" class="ml-4">Dark Mode</button>
-    <div class="px-4 py-6 my-4" :class="dark ? 'dark bg-gray-600' : ''">
+    <div class="py-6 my-4" :class="dark ? 'dark bg-gray-600' : ''">
       <p v-html="sourceCode"></p>
     </div>
     <!-- <p>{{ sourceCode }}</p> -->
@@ -23,63 +23,26 @@ export default {
     return {
       dark: "",
       component: "Creator",
-      sourceCode: `<div>
+      sourceCode: `<nav class="bg-gray-100 shadow dark:bg-gray-700">
 
-<div class="flex grid grid-cols-4 gap-x-8 gap-y-8">
-
-<div class="">
-<a href="#" class="hover:text-blue-500"><img src="https://cdn.shopify.com/s/files/1/0130/5041/3114/products/TailoredFitMesh-PanelPolo_4_560x.jpg?v=1626266062" />
-<div class="mt-4">
-  <h3>Shirt</h3>
-  <p class="text-sm text-gray-500">Navy Blue</p>
-  <p class="text-xl">1220kr</p>
-</div>
-</a>
-</div>
+<div class="flex items-center justify-between px-4 py-4">
 
 <div class="">
-<a href="#" class="hover:text-blue-500"><img src="https://cdn.shopify.com/s/files/1/0130/5041/3114/products/Relaxed-FitCottonShirt_4_560x.jpg?v=1626266842" />
-<div class="mt-4">
-  <h3>Shirt</h3>
-  <p class="text-sm text-gray-500">Navy Blue</p>
-  <p class="text-xl">1220kr</p>
-</div>
-</a>
+ <p class="text-2xl font-bold dark:text-white">Brand</p>
 </div>
 
-<div class="">
-<a href="#" class="hover:text-blue-500"><img src="https://cdn.shopify.com/s/files/1/0130/5041/3114/products/TailoredFitMesh-PanelPolo_4_560x.jpg?v=1626266062" />
-<div class="mt-4">
-  <h3>Shirt</h3>
-  <p class="text-sm text-gray-500">Navy Blue</p>
-  <p class="text-xl">1220kr</p>
-</div>
-</a>
-</div>
-
-<div class="">
-<a href="#" class="hover:text-blue-500"><img src="https://cdn.shopify.com/s/files/1/0130/5041/3114/products/TailoredFitMesh-PanelPolo_4_560x.jpg?v=1626266062" />
-<div class="mt-4">
-  <h3>Shirt</h3>
-  <p class="text-sm text-gray-500">Navy Blue</p>
-  <p class="text-xl">1220kr</p>
-</div>
-</a>
-</div>
-
-<div class="">
-<a href="#" class="hover:text-blue-500"><img src="https://cdn.shopify.com/s/files/1/0130/5041/3114/products/TailoredFitMesh-PanelPolo_4_560x.jpg?v=1626266062" />
-<div class="mt-4">
-  <h3>Shirt</h3>
-  <p class="text-sm text-gray-500">Navy Blue</p>
-  <p class="text-xl">1220kr</p>
-</div>
-</a>
+<div class="hidden dark:text-white lg:block">
+  <a href="#" class="px-4 font-light hover:text-blue-400">New</a>
+  <a href="#" class="px-4 font-light hover:text-blue-400">Clothing</a>
+  <a href="#" class="px-4 font-light hover:text-blue-400">Sportswear</a>
+  <a href="#" class="px-4 font-light hover:text-blue-400">Trending</a>
+  <a href="#" class="px-4 font-light hover:text-blue-400">Brands</a>
+  <a href="#" class="px-4 font-light hover:text-blue-400">SALE</a>
 </div>
 
 </div>
 
-</div> `,
+</nav>`,
     };
   },
   methods: {
