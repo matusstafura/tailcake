@@ -89,6 +89,22 @@ export default {
 </div>
 <!-- TAGS E -->
 
+<!-- SLIDER S -->
+<div class="mb-6 dark:text-white"> 
+
+<div>
+<p class="pb-4 mb-4 font-semibold tracking-widest uppercase border-b">PRICE</p>
+</div>
+
+<div class="flex font-light leading-9 text-gray-600 font-blue-200 dark:text-white">
+10
+<input type="range" class="mx-4 cursor-pointer" />
+100
+</div>
+
+</div>
+<!-- SLIDER E -->
+
 </div>`,
     };
   },
