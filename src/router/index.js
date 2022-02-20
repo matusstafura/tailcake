@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar.vue";
 import Commerce from "@/components/Commerce.vue";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Body from "@/components/Body";
+import Footer from "@/components/Footer";
 
 const routes = [
   {
@@ -28,6 +29,11 @@ const routes = [
     path: "/commerce",
     name: "commerce",
     component: Commerce,
+  },
+  {
+    path: "/footer",
+    name: "footer",
+    component: Footer,
   },
   {
     path: "/blog",

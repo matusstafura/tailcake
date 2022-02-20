@@ -23,26 +23,34 @@ export default {
     return {
       dark: "",
       component: "Creator",
-      sourceCode: `<nav class="bg-gray-100 shadow dark:bg-gray-700">
+      sourceCode: `<footer>
+<div class="container flex mx-auto">
+  <div class="flex flex-grow w-full">
 
-<div class="flex items-center justify-between px-4 py-4">
+    <div class="w-1/4">
+      <h3 class="mb-4">About us</h3>
+      <nav class="text-sm font-light text-gray-700 list-none">
+        <li class="mb-2"><a href="#">Company</a></li>
+        <li class="mb-2"><a href="#">Company</a></li>
+        <li class="mb-2"><a href="#">Company</a></li>
+        <li class="mb-2"><a href="#">Company</a></li>
+      </nav>
+    </div>
 
-<div class="">
- <p class="text-2xl font-bold dark:text-white">Brand</p>
+    <div class="w-1/4">
+      <h3>Services</h3>
+    </div>
+
+    <div class="w-1/4">
+      <h3>About us</h3>
+    </div>
+
+    <div class="w-1/4">
+      <h3>Contact us</h3>
+    </div>
+
 </div>
-
-<div class="hidden dark:text-white lg:block">
-  <a href="#" class="px-4 font-light hover:text-blue-400">New</a>
-  <a href="#" class="px-4 font-light hover:text-blue-400">Clothing</a>
-  <a href="#" class="px-4 font-light hover:text-blue-400">Sportswear</a>
-  <a href="#" class="px-4 font-light hover:text-blue-400">Trending</a>
-  <a href="#" class="px-4 font-light hover:text-blue-400">Brands</a>
-  <a href="#" class="px-4 font-light hover:text-blue-400">SALE</a>
-</div>
-
-</div>
-
-</nav>`,
+</footer>`,
     };
   },
   methods: {
