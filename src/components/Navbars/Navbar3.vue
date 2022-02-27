@@ -6,7 +6,7 @@
 import Element from "../Element.vue";
 export default {
   components: { Element },
-  name: "Navbar2",
+  name: "Navbar3",
   data() {
     return {
       code: `<header class="bg-gray-100 shadow dark:bg-gray-700">

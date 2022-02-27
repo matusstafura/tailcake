@@ -86,7 +86,7 @@ export default {
 <style scoped>
 textarea {
   font-family: "Inconsolata";
-  font-size: 16px;
+  font-size: 12px;
   background-color: #f5f5f5;
 }
 </style>
