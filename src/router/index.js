@@ -6,6 +6,7 @@ import Button from "@/components/Button.vue";
 import Navbar from "@/components/Navbar.vue";
 import Commerce from "@/components/Commerce.vue";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import Alert from "@/components/Alerts";
 import Body from "@/components/Body";
 import Footer from "@/components/Footer";
 import Table from "@/components/Table";
@@ -15,6 +16,11 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
+  },
+  {
+    path: "/alerts",
+    name: "alerts",
+    component: Alert,
   },
   {
     path: "/buttons",

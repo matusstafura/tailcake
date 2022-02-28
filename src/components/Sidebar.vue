@@ -4,6 +4,7 @@
     <router-link to="buttons" class="block mb-4">Buttons</router-link>
     <router-link to="breadcrumbs" class="block mb-4">Breadcrumbs</router-link>
     <h2 class="pb-4 text-lg font-bold">Components</h2>
+    <router-link to="alerts" class="block mb-4">Alerts</router-link>
     <router-link to="blog" class="block mb-4">Blog</router-link>
     <router-link to="body" class="block mb-4">Body</router-link>
     <router-link to="commerce" class="block mb-4">Commerce</router-link>
