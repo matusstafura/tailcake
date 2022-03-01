@@ -9,13 +9,14 @@ export default {
   name: "Blocks with image",
   data() {
     return {
+      image: "1.jpg",
       code: `<section>
 <div class="container">
 <div class="flex">
 
 <div class="p-4">
 <div class="bg-gray-100 w-96">
-<div><img src="https://dummyimage.com/600x400/ccc/fff" alt="thumbnial" /></div>
+<div><img src="/images/blog/1.jpg" + alt="thumbnial" /></div>
 <div class="p-8">
 <div class="mb-2 font-bold text-gray-400 uppercase">Category</div>
 <h2 class="mb-2 text-2xl">Title</h2>
@@ -30,7 +31,7 @@ export default {
 
 <div class="p-4">
 <div class="bg-gray-100 w-96">
-<div><img src="https://dummyimage.com/600x400/ccc/fff" alt="thumbnial" /></div>
+<div><img src="/images/blog/2.jpg" alt="thumbnial" /></div>
 <div class="p-8">
 <div class="mb-2 font-bold text-gray-400 uppercase">Category</div>
 <h2 class="mb-2 text-2xl">Title</h2>
@@ -45,7 +46,7 @@ export default {
 
 <div class="p-4">
 <div class="bg-gray-100 w-96">
-<div><img src="https://dummyimage.com/600x400/ccc/fff" alt="thumbnial" /></div>
+<div><img src="/images/blog/3.jpg" alt="thumbnial" /></div>
 <div class="p-8">
 <div class="mb-2 font-bold text-gray-400 uppercase">Category</div>
 <h2 class="mb-2 text-2xl">Title</h2>
