@@ -8,6 +8,7 @@
     <router-link to="blog" class="block mb-4">Blog</router-link>
     <router-link to="body" class="block mb-4">Body</router-link>
     <router-link to="commerce" class="block mb-4">Commerce</router-link>
+    <router-link to="content" class="block mb-4">Content</router-link>
     <router-link to="footer" class="block mb-4">Footers</router-link>
     <router-link to="navbars" class="block mb-4">Navbars</router-link>
     <router-link to="tables" class="block mb-4">Tables</router-link>

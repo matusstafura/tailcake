@@ -10,6 +10,7 @@ import Alert from "@/components/Alerts";
 import Body from "@/components/Body";
 import Footer from "@/components/Footer";
 import Table from "@/components/Table";
+import Content from "@/components/Content";
 
 const routes = [
   {
@@ -36,6 +37,11 @@ const routes = [
     path: "/commerce",
     name: "commerce",
     component: Commerce,
+  },
+  {
+    path: "/content",
+    name: "content",
+    component: Content,
   },
   {
     path: "/footer",
