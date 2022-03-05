@@ -1,9 +1,10 @@
 <template>
-  <div id="sidebar" class="w-64 h-screen px-4 py-4 bg-gray-100">
+  <div id="sidebar" class="w-64 max-h-full px-4 py-4 bg-gray-100">
     <h2 class="pb-4 text-lg font-bold">Elements</h2>
     <router-link to="buttons" class="block mb-4">Buttons</router-link>
     <router-link to="breadcrumbs" class="block mb-4">Breadcrumbs</router-link>
     <h2 class="pb-4 text-lg font-bold">Components</h2>
+    <router-link to="unsorted" class="block mb-4">*Unsorted</router-link>
     <router-link to="alerts" class="block mb-4">Alerts</router-link>
     <router-link to="blog" class="block mb-4">Blog</router-link>
     <router-link to="body" class="block mb-4">Body</router-link>

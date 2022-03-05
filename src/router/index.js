@@ -11,12 +11,18 @@ import Body from "@/components/Body";
 import Footer from "@/components/Footer";
 import Table from "@/components/Table";
 import Content from "@/components/Content";
+import Unsorted from "@/components/Unsorted";
 
 const routes = [
   {
     path: "/",
     name: "Home",
     component: Home,
+  },
+  {
+    path: "/unsorted",
+    name: "unsorted",
+    component: Unsorted,
   },
   {
     path: "/alerts",
