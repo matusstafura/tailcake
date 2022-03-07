@@ -1,6 +1,12 @@
 <template>
-  <div :class="dark ? 'dark' : ''" class="mb-8">
-    <div class="flex justify-between mb-4">
+  <div :class="dark ? 'dark' : ''" class="mb-8 border">
+    <div class="relative flex justify-between p-4 mb-4 border-b bg-gray-50">
+      <div
+        class="absolute w-full h-full pt-4 -mt-4 -ml-4 text-white bg-green-400"
+        v-if="message"
+      >
+        <p class="text-center align-middle">{{ message }}</p>
+      </div>
       <h2 class="justify-start text-xl font-semibold">{{ title }}</h2>
       <div class="flex mt-0">
         <button @click="showCode" class="ml-4">
@@ -48,13 +54,6 @@
           </svg>
         </button>
 
-        <p
-          class="absolute p-4 mt-4 text-sm text-white bg-blue-300"
-          v-if="message"
-        >
-          {{ message }}
-        </p>
-
         <button @click="copyCode" v-clipboard:copy="msg" class="ml-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -73,11 +72,15 @@
         </button>
       </div>
     </div>
-    <div class="w-full bg-gxray-100 language-html dark:bg-gray-600">
+    <div class="w-full p-8 bg-gxray-100 language-html dark:bg-gray-600">
       <div v-html="code"></div>
     </div>
     <div v-show="active">
-      <highlightjs language="js" :code="code" class="text-sm" />
+      <highlightjs
+        language="js"
+        :code="code"
+        class="text-sm whitespace-pre-line"
+      />
     </div>
     <div></div>
   </div>
@@ -105,7 +108,7 @@ export default {
         this.message = "Copied Succesfully!";
         setTimeout(() => {
           this.message = "";
-        }, 3000);
+        }, 1500);
       });
     },
   },

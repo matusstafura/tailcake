@@ -12,7 +12,7 @@ export default {
       code: `<section>
 <div class="flex p-16 mx-auto dark:text-white">
 
-<div class="w-1/2 py-16 my-auto">
+<div class="w-1/2 my-auto">
 <span class="font-semibold text-gray-500 uppercase">Tutorial</span>
 <h2 class="py-4 text-4xl font-bold">How to write an essay</h2>
 

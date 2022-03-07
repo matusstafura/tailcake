@@ -9,8 +9,7 @@ export default {
   name: "Cta 1",
   data() {
     return {
-      code: `<!-- CTA -->
-<section class="m-8 bg-white border rounded-lg shadow-xl border-gray-50 dark:bg-gray-500 dark:text-white">
+      code: `<section class="m-8 bg-white border rounded-lg shadow-xl border-gray-50 dark:bg-gray-500 dark:text-white">
 
 <div class="flex p-8">
   <div class="flex w-8/12">
