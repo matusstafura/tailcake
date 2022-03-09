@@ -10,10 +10,10 @@ export default {
   data() {
     return {
       code: `<section>
-  <div class="grid grid-cols-3 gap-8 px-36">
-    <div class="bg-gray-50 rounded-md shadow-lg flex flex-col justify-between">
+  <div class="container grid grid-cols-1 gap-8 mx-auto lg:grid-cols-3 xl:max-w-screen-xl">
+    <div class="flex flex-col justify-between border border-gray-200 rounded-md shadow-lg bg-gray-50">
       <div class="p-8">
-        <h5 class="text-xl font-semibold mb-4">Easy</h5>
+        <h5 class="mb-4 text-xl font-semibold">Easy</h5>
         <div class="text-sm text-gray-500">description</div>
         <div class="text-3xl">SEK 70:-</div>
         <hr class="my-5" />
@@ -28,9 +28,9 @@ export default {
         <button class="px-6 py-3 font-semibold text-white bg-blue-400 rounded shadow-lg dark:bg-white dark:text-black hover:bg-blue-500">Select plan</button>
       </div>
     </div>
-    <div class="bg-gray-50 rounded-md shadow-lg flex flex-col justify-between">
+    <div class="flex flex-col justify-between border border-gray-200 rounded-md shadow-lg bg-gray-50">
       <div class="p-8">
-        <h5 class="text-xl font-semibold mb-4">Easy</h5>
+        <h5 class="mb-4 text-xl font-semibold">Easy</h5>
         <div class="text-sm text-gray-500">description</div>
         <div class="text-3xl">SEK 70:-</div>
         <hr class="my-5" />
@@ -45,9 +45,9 @@ export default {
         <button class="px-6 py-3 font-semibold text-white bg-blue-400 rounded shadow-lg dark:bg-white dark:text-black hover:bg-blue-500">Select plan</button>
       </div>
     </div>
-    <div class="bg-gray-50 rounded-md shadow-lg flex flex-col justify-between">
+    <div class="flex flex-col justify-between border border-gray-200 rounded-md shadow-lg bg-gray-50">
       <div class="p-8">
-        <h5 class="text-xl font-semibold mb-4">Easy</h5>
+        <h5 class="mb-4 text-xl font-semibold">Easy</h5>
         <div class="text-sm text-gray-500">description</div>
         <div class="text-3xl">SEK 70:-</div>
         <hr class="my-5" />

@@ -9,8 +9,7 @@ export default {
   name: "Blocks with image",
   data() {
     return {
-      image: "1.jpg",
-      code: `<section class="w-2/3 mx-auto dark:text-white">
+      code: `<section class="mx-auto bg-white xl:max-w-screen-md dark:text-white">
 <div class="grid grid-cols-1 p-3 mx-auto mb-4 border border-gray-100 rounded-lg shadow-lg lg:grid-cols-2 dark:bg-gray-500">
 
 <div class="relative h-64 pb-2/3">

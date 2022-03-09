@@ -11,9 +11,11 @@ export default {
     return {
       code: `<div class="flex justify-between w-full px-8 py-4 text-sm text-gray-700 bg-green-200">
   <div class="flex">
-    <svg class="h-3 mt-1 mr-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <div class="m-auto">
+    <svg class="h-3 mr-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
       <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/>
     </svg>
+    </div>
     <p>Product successfully added to cart</p>
   </div>
 
