@@ -7,7 +7,6 @@ import Navbar from "@/components/Navbar.vue";
 import Commerce from "@/components/Commerce.vue";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Alert from "@/components/Alerts";
-import Body from "@/components/Body";
 import Footer from "@/components/Footer";
 import Table from "@/components/Table";
 import Content from "@/components/Content";
@@ -58,11 +57,6 @@ const routes = [
     path: "/blog",
     name: "blog",
     component: Blog,
-  },
-  {
-    path: "/body",
-    name: "body",
-    component: Body,
   },
   {
     path: "/navbars",

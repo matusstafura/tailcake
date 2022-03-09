@@ -1,14 +1,12 @@
 <template>
-  <div>
-    <Element :mode="mode" :code="code"></Element>
-  </div>
+  <Element :title="title" :code="code"></Element>
 </template>
 
 <script>
-import Element from "./Element.vue";
+import Element from "../Element.vue";
 export default {
-  name: "CommerceSidebar",
-  props: ["mode"],
+  components: { Element },
+  name: "Sidebar",
   data() {
     return {
       code: `<div>
@@ -106,10 +104,8 @@ export default {
 <!-- SLIDER E -->
 
 </div>`,
+      title: "Sidebar",
     };
   },
-  components: { Element },
 };
 </script>
-
-<style scoped></style>
