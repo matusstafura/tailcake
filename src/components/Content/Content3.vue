@@ -10,20 +10,20 @@ export default {
   data() {
     return {
       code: `<section>
-<div class="w-full p-16 mx-auto text-center dark:text-white">
+<div class="w-full mx-auto text-center xl:w-1/2 dark:text-white">
 
-<div class="w-1/2 mx-auto">
-  <img class="rounded-lg shadow-lg" src="images/content/2.jpg" alt="" />
+<div class="m-auto">
+  <img class="mx-auto rounded-lg shadow-lg" src="images/content/2.jpg" alt="" />
 </div>
 
-<div class="w-1/2 py-16 m-auto">
-<span class="font-semibold text-gray-500 uppercase">Wedding</span>
+<div class="py-8 m-auto">
+<span class="font-semibold text-gray-500 uppercase dark:text-gray-100">Wedding</span>
 <h2 class="py-4 text-4xl font-semibold">Crucial Tips For Making Your Wedding Guest List</h2>
 
-<div class="pb-4 leading-relaxed text-gray-500 dark:text-white">
+<div class="pb-4 leading-relaxed text-gray-500 dark:text-gray-100">
 Ab cumque corporis qui quibusdam recusandae aut commodi velit hic provident quas. Et consequatur maxime et aperiam quisquam et temporibus deserunt est facere sapiente qui autem assumenda est voluptas quas et similique.
 </div>
-<button class="px-6 py-3 font-bold text-white uppercase bg-blue-400 rounded shadow-lg dark:bg-white dark:text-black hover:bg-blue-500">
+<button class="px-6 py-3 font-bold text-white uppercase bg-blue-400 rounded shadow-lg hover:bg-blue-500">
   Read More ...
 </button>
 </div>

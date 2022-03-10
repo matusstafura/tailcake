@@ -10,16 +10,16 @@ export default {
   data() {
     return {
       code: `<footer>
-<div class="container flex p-4 mx-auto">
+<div class="container flex px-4 mx-auto">
   <div class="grid flex-grow w-full grid-cols-1 gap-x-8 gap-y-8 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 dark:text-white">
 
     <div class="p-4">
-      <h3 class="mb-4">About us</h3>
+      <h3 class="mb-4 text-xl">About us</h3>
       <p class="text-sm font-light leading-6 text-gray-700 dark:text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tempor incididunt.</p>
     </div>
 
     <div class="p-4">
-      <h3 class="mb-4">Quick Links</h3>
+      <h3 class="mb-4 text-xl">Quick Links</h3>
       <ul class="text-sm font-light leading-6 text-gray-700 list-none dark:text-white">
         <li class="mb-2"><a href="#" class="block hover:text-blue-500">My account</a></li>
         <li class="mb-2"><a href="#" class="block hover:text-blue-500">Cart</a></li>
@@ -29,7 +29,7 @@ export default {
     </div>
 
     <div class="p-4">
-      <h3 class="mb-4">Services</h3>
+      <h3 class="mb-4 text-xl">Services</h3>
       <ul class="text-sm font-light leading-6 text-gray-700 list-none dark:text-white">
         <li class="mb-2"><a href="#" class="block hover:text-blue-500">About Us</a></li>
         <li class="mb-2"><a href="#" class="block hover:text-blue-500">Services</a></li>
@@ -42,7 +42,7 @@ export default {
     </div>
 
     <div class="p-4">
-      <h3 class="mb-4">Contact us</h3>
+      <h3 class="mb-4 text-xl">Contact us</h3>
      <ul class="text-sm font-light leading-6 text-gray-700 list-none dark:text-white">
         <li class="mb-2"><span class="font-semibold">Street Address</span>: 360 Friendship Lane</li>
         <li class="mb-2"><span class="font-semibold">City</span>: Walnut Creek</li>
