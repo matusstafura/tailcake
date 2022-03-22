@@ -10,18 +10,13 @@ import Alert from "@/components/Alerts";
 import Footer from "@/components/Footer";
 import Table from "@/components/Table";
 import Content from "@/components/Content";
-import Unsorted from "@/components/Unsorted";
+import Cta from "@/components/Cta";
 
 const routes = [
   {
     path: "/",
     name: "Home",
     component: Home,
-  },
-  {
-    path: "/unsorted",
-    name: "unsorted",
-    component: Unsorted,
   },
   {
     path: "/alerts",
@@ -47,6 +42,11 @@ const routes = [
     path: "/content",
     name: "content",
     component: Content,
+  },
+  {
+    path: "/cta",
+    name: "cta",
+    component: Cta,
   },
   {
     path: "/footer",
