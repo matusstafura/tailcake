@@ -72,7 +72,7 @@
         </button>
       </div>
     </div>
-    <div class="w-full p-8 bg-gxray-100 language-html dark:bg-gray-600">
+    <div class="w-full p-8 bg-white language-html dark:bg-gray-600">
       <div v-html="code"></div>
     </div>
     <div v-show="active">

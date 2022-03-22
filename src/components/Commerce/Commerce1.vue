@@ -9,52 +9,55 @@ export default {
   name: "Product Grid",
   data() {
     return {
-      code: `<div>
-
-<div class="grid grid-cols-1 gap-x-8 gap-y-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 dark:text-white">
-
-<div class="">
-<a href="#" class="hover:text-blue-500"><img src="https://cdn.shopify.com/s/files/1/0130/5041/3114/products/TailoredFitMesh-PanelPolo_4_560x.jpg?v=1626266062" />
-<div class="mt-4">
-  <h3>Shirt</h3>
-  <p class="text-sm text-gray-500">Navy Blue</p>
-  <p class="text-xl">1220kr</p>
-</div>
-</a>
-</div>
-
-<div class="">
-<a href="#" class="hover:text-blue-500"><img src="https://cdn.shopify.com/s/files/1/0130/5041/3114/products/Relaxed-FitCottonShirt_4_560x.jpg?v=1626266842" />
-<div class="mt-4">
-  <h3>Shirt</h3>
-  <p class="text-sm text-gray-500">Navy Blue</p>
-  <p class="text-xl">1220kr</p>
-</div>
-</a>
-</div>
-
-<div class="">
-<a href="#" class="hover:text-blue-500"><img src="https://cdn.shopify.com/s/files/1/0130/5041/3114/products/TailoredFitMesh-PanelPolo_4_560x.jpg?v=1626266062" />
-<div class="mt-4">
-  <h3>Shirt</h3>
-  <p class="text-sm text-gray-500">Navy Blue</p>
-  <p class="text-xl">1220kr</p>
-</div>
-</a>
-</div>
-
-<div class="">
-<a href="#" class="hover:text-blue-500"><img src="https://cdn.shopify.com/s/files/1/0130/5041/3114/products/TailoredFitMesh-PanelPolo_4_560x.jpg?v=1626266062" />
-<div class="mt-4">
-  <h3>Shirt</h3>
-  <p class="text-sm text-gray-500">Navy Blue</p>
-  <p class="text-xl">1220kr</p>
-</div>
-</a>
-</div>
-
-</div>
-
+      code: `<div class="grid grid-cols-1 gap-x-8 gap-y-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 dark:text-white">
+  <div>
+    <div>
+      <img src="images/content/3.jpg" />
+    </div>
+    <div class="mt-4">
+      <a href="#" class="hover:text-blue-500">
+        <h3>Shirt</h3>
+      </a>
+      <p class="text-sm text-gray-500">Navy Blue</p>
+      <p class="text-xl">1220kr</p>
+    </div>
+  </div>
+  <div>
+    <div>
+      <img src="images/content/4.jpg" />
+    </div>
+    <div class="mt-4">
+      <a href="#" class="hover:text-blue-500">
+        <h3>Shirt</h3>
+      </a>
+      <p class="text-sm text-gray-500">Navy Blue</p>
+      <p class="text-xl">1220kr</p>
+    </div>
+  </div>
+  <div>
+    <div>
+      <img src="images/content/5.jpg" />
+    </div>
+    <div class="mt-4">
+      <a href="#" class="hover:text-blue-500">
+        <h3>Shirt</h3>
+      </a>
+      <p class="text-sm text-gray-500">Navy Blue</p>
+      <p class="text-xl">1220kr</p>
+    </div>
+  </div>
+  <div>
+    <div>
+      <img src="images/content/6.jpg" />
+    </div>
+    <div class="mt-4">
+      <a href="#" class="hover:text-blue-500">
+        <h3>Shirt</h3>
+      </a>
+      <p class="text-sm text-gray-500">Navy Blue</p>
+      <p class="text-xl">1220kr</p>
+    </div>
+  </div>
 </div>`,
       title: "Product Grid",
     };
