@@ -9,7 +9,7 @@ export default {
   name: "Navbar4",
   data() {
     return {
-      code: `<div class="relative text-xs leading-4 tracking-normal text-left bg-white border-b border-gray-300 border-solid dark:bg-gray-600">
+      code: `<div class="relative text-xs leading-4 tracking-normal text-left bg-white border-b border-gray-300 border-solid dark:bg-gray-600 dark:text-white">
   <div class="flex items-center w-full px-4 mx-auto tracking-normal text-left">
     <div class="inline-flex items-center justify-start flex-1 leading-4">
       <nav class="box-border block text-left">
