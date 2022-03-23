@@ -1,6 +1,6 @@
 <template>
-  <div :class="dark ? 'dark' : ''" class="mb-8 border">
-    <div class="relative flex justify-between p-4 mb-4 border-b bg-gray-50">
+  <div :class="dark ? 'dark' : ''" class="mb-8 border shadow-lg">
+    <div class="relative flex justify-between p-4 border-b bg-gray-50">
       <div
         class="absolute w-full h-full pt-4 -mt-4 -ml-4 text-white bg-green-400"
         v-if="message"
@@ -54,7 +54,7 @@
           </svg>
         </button>
 
-        <button @click="copyCode" v-clipboard:copy="msg" class="ml-4">
+        <button @click="copyCode" class="ml-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="w-6 h-6"
