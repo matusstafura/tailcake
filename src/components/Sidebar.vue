@@ -26,10 +26,6 @@
     <router-link to="tables" class="block mb-4 hover:underline"
       >Tables</router-link
     >
-    <h2 class="py-4 text-lg font-bold">DevTools</h2>
-    <router-link to="creator" class="block mb-4 hover:underline"
-      >Creator</router-link
-    >
   </div>
 </template>
 

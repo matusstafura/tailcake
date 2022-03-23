@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
-import Creator from "@/components/Creator.vue";
 import Blog from "@/components/Blog.vue";
 import Button from "@/components/Button.vue";
 import Navbar from "@/components/Navbar.vue";
@@ -67,11 +66,6 @@ const routes = [
     path: "/tables",
     name: "tables",
     component: Table,
-  },
-  {
-    path: "/creator",
-    name: "creator",
-    component: Creator,
   },
   {
     path: "/about",
