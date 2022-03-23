@@ -9,7 +9,7 @@
 import Table1 from "./Tables/Table1.vue";
 import Table2 from "./Tables/Table2.vue";
 export default {
-  name: "Breadcrumbs",
+  name: "Table",
   props: ["mode"],
   components: { Table1, Table2 },
 };

@@ -11,7 +11,7 @@ import Content1 from "./Content/Content1.vue";
 import Content2 from "./Content/Content2.vue";
 import Content3 from "./Content/Content3.vue";
 export default {
-  name: "Breadcrumbs",
+  name: "Content",
   props: ["mode"],
   components: { Content1, Content2, Content3 },
 };

@@ -10,6 +10,7 @@ export default {
   data() {
     return {
       image: "1.jpg",
+      title: "Blocks with images",
       code: `<section>
   <div class="container p-8 dark:text-white">
     <div class="grid grid-cols-1 gap-y-8 gap-x-8 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
@@ -43,10 +44,7 @@ export default {
     </div>
   </div>
 </section>`,
-      title: "Blocks with images",
     };
   },
 };
 </script>
-
-<style scoped></style>

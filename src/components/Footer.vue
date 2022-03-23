@@ -9,7 +9,7 @@
 import Footer1 from "./Footers/Footer1.vue";
 import Footer2 from "./Footers/Footer2.vue";
 export default {
-  name: "Breadcrumbs",
+  name: "Footer",
   props: ["mode"],
   components: { Footer1, Footer2 },
 };

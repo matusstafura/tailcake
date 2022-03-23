@@ -12,6 +12,8 @@ import Navbar3 from "./Navbars/Navbar3.vue";
 import Navbar4 from "./Navbars/Navbar4.vue";
 
 export default {
+  name: "Navbar",
+  props: ["mode"],
   components: {
     Navbar1,
     Navbar2,

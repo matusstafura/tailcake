@@ -7,7 +7,7 @@
 <script>
 import Alert1 from "./Alerts/Alert1.vue";
 export default {
-  name: "Breadcrumbs",
+  name: "Alerts",
   props: ["mode"],
   components: { Alert1 },
 };

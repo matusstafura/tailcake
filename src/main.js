@@ -7,4 +7,12 @@ import hljsVuePlugin from "@highlightjs/vue-plugin";
 import "./assets/css/input.css";
 import VueClipboard from "vue-clipboard2";
 
-createApp(App).use(router).use(hljsVuePlugin).use(VueClipboard).mount("#app");
+const app = createApp(App);
+app.use(router).use(hljsVuePlugin).use(VueClipboard).mount("#app");
+
+/* read dir */
+const req = require.context("./components/Blog", true, /\.(js|vue)$/i);
+req.keys().map((key) => {
+  const name = key.match(/\w+/)[0];
+  app.component(name, req(key).default);
+});

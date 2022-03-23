@@ -7,7 +7,7 @@
 import Commerce2 from "./Commerce/Commerce2.vue";
 import Commerce1 from "./Commerce/Commerce1.vue";
 export default {
-  name: "Button",
+  name: "Commerce",
   props: ["mode"],
   components: { Commerce2, Commerce1 },
 };

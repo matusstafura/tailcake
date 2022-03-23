@@ -6,10 +6,10 @@
 </template>
 
 <script>
-import Cta1 from "./Unsorted/Cta1.vue";
-import Cta2 from "./Unsorted/Cta2.vue";
+import Cta1 from "./Cta/Cta1.vue";
+import Cta2 from "./Cta/Cta2.vue";
 export default {
-  name: "Unsorted",
+  name: "Cta",
   props: ["mode"],
   components: { Cta1, Cta2 },
 };

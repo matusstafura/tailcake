@@ -1,19 +1,32 @@
 <template>
   <div>
-    <Blog1></Blog1>
-    <Blog2></Blog2>
-    <Blog3></Blog3>
+    <div v-for="component in components" :key="component">
+      <component :is="component">{{ components }}</component>
+    </div>
   </div>
 </template>
 
 <script>
-import Blog1 from "./Blog/Blog1.vue";
-import Blog2 from "./Blog/Blog2.vue";
-import Blog3 from "./Blog/Blog3.vue";
 export default {
-  name: "Breadcrumbs",
+  name: "Blog",
   props: ["mode"],
-  components: { Blog1, Blog2, Blog3 },
+  data() {
+    return {
+      components: [],
+    };
+  },
+  mounted() {
+    return this.allComp();
+  },
+  methods: {
+    allComp() {
+      const req = require.context("./Blog/", true, /\.(js|vue)$/i);
+      req.keys().map((key) => {
+        const name = key.match(/\w+/)[0];
+        this.components.push(name);
+      });
+    },
+  },
 };
 </script>
 

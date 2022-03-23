@@ -9,6 +9,8 @@ import Button1 from "./Buttons/Button1.vue";
 import Button2 from "./Buttons/Button2.vue";
 import Button3 from "./Buttons/Button3.vue";
 export default {
+  name: "Buttons",
+  props: ["mode"],
   components: {
     Button1,
     Button2,
