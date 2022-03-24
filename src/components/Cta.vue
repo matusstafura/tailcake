@@ -1,18 +1,31 @@
 <template>
   <div>
-    <Cta1></Cta1>
-    <Cta2></Cta2>
+    <div v-for="component in components" :key="component">
+      <component :is="component">{{ components }}</component>
+    </div>
   </div>
 </template>
 
 <script>
-import Cta1 from "./Cta/Cta1.vue";
-import Cta2 from "./Cta/Cta2.vue";
 export default {
   name: "Cta",
   props: ["mode"],
-  components: { Cta1, Cta2 },
+  data() {
+    return {
+      components: [],
+    };
+  },
+  mounted() {
+    return this.allComp();
+  },
+  methods: {
+    allComp() {
+      const req = require.context("./Cta", true, /\.(js|vue)$/i);
+      req.keys().map((key) => {
+        const name = key.match(/\w+/)[0];
+        this.components.push(name);
+      });
+    },
+  },
 };
 </script>
-
-<style scoped></style>

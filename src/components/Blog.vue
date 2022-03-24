@@ -15,12 +15,12 @@ export default {
       components: [],
     };
   },
-  mounted() {
+  created() {
     return this.allComp();
   },
   methods: {
     allComp() {
-      const req = require.context("./Blog/", true, /\.(js|vue)$/i);
+      const req = require.context("./Blog", true, /\.(js|vue)$/i);
       req.keys().map((key) => {
         const name = key.match(/\w+/)[0];
         this.components.push(name);
@@ -29,5 +29,3 @@ export default {
   },
 };
 </script>
-
-<style scoped></style>

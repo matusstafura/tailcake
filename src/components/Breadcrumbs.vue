@@ -1,22 +1,31 @@
 <template>
   <div>
-    <Breadcrumb1></Breadcrumb1>
-    <Breadcrumb2></Breadcrumb2>
+    <div v-for="component in components" :key="component">
+      <component :is="component">{{ components }}</component>
+    </div>
   </div>
 </template>
 
 <script>
-import Breadcrumb1 from "./Breadcrumbs/Breadcrumb1.vue";
-import Breadcrumb2 from "./Breadcrumbs/Breadcrumb2.vue";
-
 export default {
   name: "Breadcrumbs",
   props: ["mode"],
-  components: {
-    Breadcrumb1,
-    Breadcrumb2,
+  data() {
+    return {
+      components: [],
+    };
+  },
+  mounted() {
+    return this.allComp();
+  },
+  methods: {
+    allComp() {
+      const req = require.context("./Breadcrumbs", true, /\.(js|vue)$/i);
+      req.keys().map((key) => {
+        const name = key.match(/\w+/)[0];
+        this.components.push(name);
+      });
+    },
   },
 };
 </script>
-
-<style scoped></style>

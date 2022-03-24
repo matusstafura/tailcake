@@ -1,16 +1,31 @@
 <template>
-  <Commerce1></Commerce1>
-  <Commerce2></Commerce2>
+  <div>
+    <div v-for="component in components" :key="component">
+      <component :is="component">{{ components }}</component>
+    </div>
+  </div>
 </template>
 
 <script>
-import Commerce2 from "./Commerce/Commerce2.vue";
-import Commerce1 from "./Commerce/Commerce1.vue";
 export default {
   name: "Commerce",
   props: ["mode"],
-  components: { Commerce2, Commerce1 },
+  data() {
+    return {
+      components: [],
+    };
+  },
+  mounted() {
+    return this.allComp();
+  },
+  methods: {
+    allComp() {
+      const req = require.context("./Commerce", true, /\.(js|vue)$/i);
+      req.keys().map((key) => {
+        const name = key.match(/\w+/)[0];
+        this.components.push(name);
+      });
+    },
+  },
 };
 </script>
-
-<style scoped></style>

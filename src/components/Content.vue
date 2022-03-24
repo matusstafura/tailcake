@@ -1,20 +1,31 @@
 <template>
   <div>
-    <Content1></Content1>
-    <Content2></Content2>
-    <Content3></Content3>
+    <div v-for="component in components" :key="component">
+      <component :is="component">{{ components }}</component>
+    </div>
   </div>
 </template>
 
 <script>
-import Content1 from "./Content/Content1.vue";
-import Content2 from "./Content/Content2.vue";
-import Content3 from "./Content/Content3.vue";
 export default {
   name: "Content",
   props: ["mode"],
-  components: { Content1, Content2, Content3 },
+  data() {
+    return {
+      components: [],
+    };
+  },
+  mounted() {
+    return this.allComp();
+  },
+  methods: {
+    allComp() {
+      const req = require.context("./Content", true, /\.(js|vue)$/i);
+      req.keys().map((key) => {
+        const name = key.match(/\w+/)[0];
+        this.components.push(name);
+      });
+    },
+  },
 };
 </script>
-
-<style scoped></style>

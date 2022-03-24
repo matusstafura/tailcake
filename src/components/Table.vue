@@ -1,18 +1,31 @@
 <template>
   <div>
-    <Table1></Table1>
-    <Table2></Table2>
+    <div v-for="component in components" :key="component">
+      <component :is="component">{{ components }}</component>
+    </div>
   </div>
 </template>
 
 <script>
-import Table1 from "./Tables/Table1.vue";
-import Table2 from "./Tables/Table2.vue";
 export default {
-  name: "Table",
+  name: "Tables",
   props: ["mode"],
-  components: { Table1, Table2 },
+  data() {
+    return {
+      components: [],
+    };
+  },
+  mounted() {
+    return this.allComp();
+  },
+  methods: {
+    allComp() {
+      const req = require.context("./Tables", true, /\.(js|vue)$/i);
+      req.keys().map((key) => {
+        const name = key.match(/\w+/)[0];
+        this.components.push(name);
+      });
+    },
+  },
 };
 </script>
-
-<style scoped></style>

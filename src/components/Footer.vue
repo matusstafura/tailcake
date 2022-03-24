@@ -1,18 +1,31 @@
 <template>
   <div>
-    <Footer1></Footer1>
-    <Footer2>jjj</Footer2>
+    <div v-for="component in components" :key="component">
+      <component :is="component">{{ components }}</component>
+    </div>
   </div>
 </template>
 
 <script>
-import Footer1 from "./Footers/Footer1.vue";
-import Footer2 from "./Footers/Footer2.vue";
 export default {
-  name: "Footer",
+  name: "Footers",
   props: ["mode"],
-  components: { Footer1, Footer2 },
+  data() {
+    return {
+      components: [],
+    };
+  },
+  mounted() {
+    return this.allComp();
+  },
+  methods: {
+    allComp() {
+      const req = require.context("./Footers", true, /\.(js|vue)$/i);
+      req.keys().map((key) => {
+        const name = key.match(/\w+/)[0];
+        this.components.push(name);
+      });
+    },
+  },
 };
 </script>
-
-<style scoped></style>

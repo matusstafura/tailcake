@@ -1,26 +1,31 @@
 <template>
-  <Navbar1></Navbar1>
-  <Navbar2></Navbar2>
-  <Navbar3></Navbar3>
-  <Navbar4></Navbar4>
+  <div>
+    <div v-for="component in components" :key="component">
+      <component :is="component">{{ components }}</component>
+    </div>
+  </div>
 </template>
 
 <script>
-import Navbar1 from "./Navbars/Navbar1.vue";
-import Navbar2 from "./Navbars/Navbar2.vue";
-import Navbar3 from "./Navbars/Navbar3.vue";
-import Navbar4 from "./Navbars/Navbar4.vue";
-
 export default {
-  name: "Navbar",
+  name: "Navbars",
   props: ["mode"],
-  components: {
-    Navbar1,
-    Navbar2,
-    Navbar3,
-    Navbar4,
+  data() {
+    return {
+      components: [],
+    };
+  },
+  mounted() {
+    return this.allComp();
+  },
+  methods: {
+    allComp() {
+      const req = require.context("./Navbars", true, /\.(js|vue)$/i);
+      req.keys().map((key) => {
+        const name = key.match(/\w+/)[0];
+        this.components.push(name);
+      });
+    },
   },
 };
 </script>
-
-<style scoped></style>

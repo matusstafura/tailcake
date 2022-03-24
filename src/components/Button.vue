@@ -1,22 +1,31 @@
 <template>
-  <Button1></Button1>
-  <Button2></Button2>
-  <Button3></Button3>
+  <div>
+    <div v-for="component in components" :key="component">
+      <component :is="component">{{ components }}</component>
+    </div>
+  </div>
 </template>
 
 <script>
-import Button1 from "./Buttons/Button1.vue";
-import Button2 from "./Buttons/Button2.vue";
-import Button3 from "./Buttons/Button3.vue";
 export default {
   name: "Buttons",
   props: ["mode"],
-  components: {
-    Button1,
-    Button2,
-    Button3,
+  data() {
+    return {
+      components: [],
+    };
+  },
+  mounted() {
+    return this.allComp();
+  },
+  methods: {
+    allComp() {
+      const req = require.context("./Buttons", true, /\.(js|vue)$/i);
+      req.keys().map((key) => {
+        const name = key.match(/\w+/)[0];
+        this.components.push(name);
+      });
+    },
   },
 };
 </script>
-
-<style scoped></style>
