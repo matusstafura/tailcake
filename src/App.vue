@@ -5,7 +5,7 @@
     </div>
     <div class="flex">
       <Sidebar></Sidebar>
-      <div id="content" class="w-full p-6">
+      <div id="content" class="w-full p-4">
         <router-view></router-view>
       </div>
     </div>

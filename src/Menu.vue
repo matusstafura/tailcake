@@ -4,8 +4,6 @@
     <div class="text-xl font-semibold">TailCake</div>
   </div>
   <div class="flex px-4">
-    <router-link to="/" class="px-4 hover:underline">Home</router-link>
-    <router-link to="/about" class="px-4 hover:underline">About</router-link>
     <a
       href="https://github.com/matusstafura/tailcake"
       class="flex text-left"
