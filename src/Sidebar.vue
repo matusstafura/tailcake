@@ -1,5 +1,5 @@
 <template>
-  <div id="sidebar" class="w-64 h-screen max-h-screen px-4 py-4">
+  <div id="sidebar" class="w-64 h-screen max-h-screen px-8 py-4">
     <router-link to="alerts" class="block mb-4 hover:underline"
       >Alerts</router-link
     >

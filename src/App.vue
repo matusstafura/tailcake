@@ -1,11 +1,11 @@
 <template>
   <div class="bg-gradient-to-r from-blue-50 to-teal-50 via-gray-50">
-    <div id="nav" class="flex justify-between p-4">
+    <div id="nav" class="flex justify-between px-8 py-8">
       <Menu></Menu>
     </div>
     <div class="flex">
       <Sidebar></Sidebar>
-      <div id="content" class="w-full p-4">
+      <div id="content" class="w-full px-8 py-4">
         <router-view></router-view>
       </div>
     </div>
