@@ -10,6 +10,7 @@ import Footer from "@/components/Footer";
 import Table from "@/components/Table";
 import Content from "@/components/Content";
 import Cta from "@/components/Cta";
+import PageNotFound from "../views/PageNotFound.vue";
 
 const routes = [
   {
@@ -75,6 +76,11 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    name: "notFound",
+    component: PageNotFound,
   },
 ];
 
