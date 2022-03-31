@@ -1,7 +1,9 @@
 <template>
   <div class="flex">
-    <div class="mr-4"><img src="tailcake-logo.png" class="w-8 h-8" /></div>
-    <div class="m-auto text-xl font-semibold">TailCake</div>
+    <a href="/" class="flex">
+      <div class="mr-4"><img src="tailcake-logo.png" class="w-8 h-8" /></div>
+      <div class="m-auto text-xl font-semibold">TailCake</div>
+    </a>
   </div>
   <div class="flex">
     <a href="https://www.buymeacoffee.com/matusstafura" target="_blank"
