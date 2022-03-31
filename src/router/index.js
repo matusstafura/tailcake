@@ -11,6 +11,7 @@ import Table from "@/components/Table";
 import Content from "@/components/Content";
 import Cta from "@/components/Cta";
 import PageNotFound from "../views/PageNotFound.vue";
+import Creator from "@/views/Creator.vue";
 
 const routes = [
   {
@@ -69,6 +70,11 @@ const routes = [
     component: Table,
   },
   {
+    path: restrict(),
+    name: "creator",
+    component: Creator,
+  },
+  {
     path: "/about",
     name: "About",
     // route level code-splitting
@@ -83,6 +89,10 @@ const routes = [
     component: PageNotFound,
   },
 ];
+
+function restrict() {
+  return process.env.NODE_ENV === "development" ? "/creator" : "/";
+}
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),

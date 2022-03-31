@@ -26,9 +26,28 @@
     <router-link to="tables" class="block mb-4 hover:underline"
       >Tables</router-link
     >
+    <div v-if="dev">
+      <h2 class="py-4 text-lg font-bold">DevTools</h2>
+      <router-link to="creator" class="block mb-4 hover:underline"
+        >Creator</router-link
+      >
+    </div>
   </div>
 </template>
 
-<script></script>
+<script>
+export default {
+  data() {
+    return {
+      dev: false,
+    };
+  },
+  created() {
+    if (process.env.NODE_ENV === "development") {
+      this.dev = true;
+    }
+  },
+};
+</script>
 
 <style></style>
