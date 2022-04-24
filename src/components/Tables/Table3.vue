@@ -9,61 +9,68 @@ export default {
   name: "General Table",
   data() {
     return {
-      code: `<table class="shadow min-w-full text-sm font-light">
+      code: `
+<table class="w-full text-sm text-left bg-white shadow">
 
-  <thead class="bg-gray-50 text-black dark:text-white dark:bg-gray-600 ">
-    <tr class="uppercase text-left">
+  <thead class="text-gray-600 bg-gray-50 dark:text-gray-200 dark:bg-gray-600 dark:bg-gray-400">
+    <tr class="text-left uppercase">
       <th class="p-4">Order</th>
-      <th>Invoice</th>
-      <th>Items</th>
-      <th>Customer</th>
-      <th>Status</th>
-      <th>Payment</th>
-      <th>Total</th>
-      <th>Action</th>
+      <th class="p-4">Invoice</th>
+      <th class="p-4">Items</th>
+      <th class="p-4">Customer</th>
+      <th class="p-4">Status</th>
+      <th class="p-4">Payment</th>
+      <th class="p-4">Total</th>
+      <th class="p-4">Action</th>
     </tr>
   </thead>
 
-  <tbody class="bg-white dark:text-white dark:bg-gray-500 text-left">
-    <tr>
+  <tbody class="dark:text-gray-300 dark:bg-gray-500">
+    <tr class="border-b dark:border-gray-600">
       <td class="p-4">100010070</td>
-      <td>INV1991</td>
-      <td>Items</td>
-      <td>John Doe</td>
-      <td>pending</td>
-      <td>Stripe</td>
-      <td>339.44</td>
-      <td>view</td>
+      <td class="p-4">INV1991</td>
+      <td class="p-4">Items</td>
+      <td class="p-4">John Doe</td>
+      <td class="p-4">pending</td>
+      <td class="p-4">Stripe</td>
+      <td class="p-4">123.99</td>
+      <td class="p-4">
+        <a href="#" class="px-4 py-2 text-white bg-blue-400 rounded hover:bg-blue-500">view</a>
+      </td>
     </tr>
   </tbody>
 
-  <tbody class="bg-green-100 dark:text-white dark:bg-gray-500 text-left">
-    <tr>
+  <tbody class="bg-green-100 dark:text-gray-300 dark:bg-gray-500">
+    <tr class="border-b dark:border-gray-700">
       <td class="p-4">100010070</td>
-      <td>INV1991</td>
-      <td>Items</td>
-      <td>John Doe</td>
-      <td>pending</td>
-      <td>Stripe</td>
-      <td>339.44</td>
-      <td>view</td>
+      <td class="p-4">INV1991</td>
+      <td class="p-4">Items</td>
+      <td class="p-4">John Doe</td>
+      <td class="p-4">pending</td>
+      <td class="p-4">Stripe</td>
+      <td class="p-4">1339.44</td>
+      <td class="p-4">
+        <a href="#" class="px-4 py-2 text-white bg-blue-400 rounded hover:bg-blue-500">view</a>
+      </td>
     </tr>
   </tbody>
 
-  <tbody class="bg-pink-50 dark:text-white dark:bg-gray-500 text-left">
+  <tbody class="dark:text-gray-300 dark:bg-gray-500">
     <tr>
       <td class="p-4">100010070</td>
-      <td>INV1991</td>
-      <td>Items</td>
-      <td>John Doe</td>
-      <td>canceled</td>
-      <td>PayPal</td>
-      <td>339.44</td>
-      <td>view</td>
+      <td class="p-4">INV1991</td>
+      <td class="p-4">Items</td>
+      <td class="p-4">John Doe</td>
+      <td class="p-4">canceled</td>
+      <td class="p-4">PayPal</td>
+      <td class="p-4">23.11</td>
+      <td class="p-4">
+        <a href="#" class="px-4 py-2 text-white bg-blue-400 rounded hover:bg-blue-500">view</a>
+      </td>
     </tr>
   </tbody>
 
-  </table>`,
+</table>`,
       title: "General Table",
     };
   },

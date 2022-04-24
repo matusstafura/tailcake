@@ -6,19 +6,19 @@
 import Element from "../Element.vue";
 export default {
   components: { Element },
-  name: "Success alert",
+  name: "Danger alert",
   data() {
     return {
-      code: `<div class="flex justify-between w-full px-8 py-4 text-sm text-gray-700 bg-green-200">
+      code: `<div class="flex justify-between w-full px-8 py-4 text-sm text-gray-700 bg-red-200">
   <div class="flex">
     <div class="m-auto">
-
-    <svg class="h-3 mr-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24" width="24">
-      <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/>
-    </svg>
     
+    <svg class="h-3 mr-5 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+      <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1 6h2v8h-2v-8zm1 12.25c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25z"/>
+    </svg>
+
     </div>
-    <p>Product successfully added to cart</p>
+    <p>An object can not be created.</p>
   </div>
 
   <button class="transition-colors duration-200 transform rounded-md hover:bg-opacity-25 hover:bg-gray-600 focus:outline-none">
@@ -27,7 +27,7 @@ export default {
     </svg>
   </button>
 </div>`,
-      title: "Success alert",
+      title: "Danger alert",
     };
   },
 };
