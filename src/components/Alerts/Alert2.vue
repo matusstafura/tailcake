@@ -6,19 +6,19 @@
 import Element from "../Element.vue";
 export default {
   components: { Element },
-  name: "Danger alert",
+  name: "Error alert",
   data() {
     return {
-      code: `<div class="flex justify-between w-full py-4 px-6 text-sm text-gray-700 bg-red-200">
+      code: `<div class="flex justify-between w-full px-6 py-4 text-sm text-red-700 bg-red-100">
   <div class="flex">
-    <div class="m-auto">
-    
-    <svg class="mr-5 xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
-      <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1 6h2v8h-2v-8zm1 12.25c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25z"/>
-    </svg>
 
-    </div>
-    <p>An object can not be created.</p>
+  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times-circle" class="w-4 h-5 mr-5 fill-current" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path>
+  </svg>
+
+    <p class="font-bold mr-2">410 Gone</p>
+    <p>The requested page is no longer available.</p>
+
   </div>
 
   <button class="transition-colors duration-200 transform rounded-md hover:bg-opacity-25 hover:bg-gray-600 focus:outline-none">
@@ -27,7 +27,7 @@ export default {
     </svg>
   </button>
 </div>`,
-      title: "Danger alert",
+      title: "Error alert",
     };
   },
 };

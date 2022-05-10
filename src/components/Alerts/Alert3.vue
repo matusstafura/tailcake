@@ -6,13 +6,15 @@
 import Element from "../Element.vue";
 export default {
   components: { Element },
-  name: "Alert with link",
+  name: "With link",
   data() {
     return {
-      code: `<div class="flex justify-between w-full py-4 px-6 text-sm text-gray-700 bg-blue-200">
+      code: `<div class="flex justify-between w-full py-4 px-6 text-sm text-sky-700 bg-sky-100">
 
     <div class="m-auto">
-        <svg class="mr-5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-.001 5.75c.69 0 1.251.56 1.251 1.25s-.561 1.25-1.251 1.25-1.249-.56-1.249-1.25.559-1.25 1.249-1.25zm2.001 12.25h-4v-1c.484-.179 1-.201 1-.735v-4.467c0-.534-.516-.618-1-.797v-1h3v6.265c0 .535.517.558 1 .735v.999z"/></svg>
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="info-circle" class="w-4 h-4 mr-5 fill-current" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <path fill="currentColor" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"></path>
+        </svg>
     </div>
 
     <div class="flex justify-between w-full">
@@ -21,7 +23,7 @@ export default {
     </div>
 
 </div>`,
-      title: "Alert with link",
+      title: "With link",
     };
   },
 };
