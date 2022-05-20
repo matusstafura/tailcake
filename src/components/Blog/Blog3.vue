@@ -6,7 +6,7 @@
 import Element from "../Element.vue";
 export default {
   components: { Element },
-  name: "Blocks with image",
+  name: "Card with image",
   data() {
     return {
       code: `<section class="mx-auto bg-white dark:bg-gray-600 xl:max-w-screen-md dark:text-white">
@@ -25,7 +25,7 @@ export default {
     </div>
   </div>
 </section>`,
-      title: "Blocks with images",
+      title: "Card with image",
     };
   },
 };
