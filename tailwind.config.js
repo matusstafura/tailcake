@@ -12,6 +12,7 @@ module.exports = {
                 rose: colors.rose,
             },
         },
+        textColor: ["responsive", "hover", "focus", "group-hover"],
     },
     plugins: [],
 };
