@@ -11,8 +11,8 @@ module.exports = {
                 teal: colors.teal,
                 rose: colors.rose,
             },
+            textColor: ["group-hover"],
         },
-        textColor: ["responsive", "hover", "focus", "group-hover"],
     },
     plugins: [],
 };
