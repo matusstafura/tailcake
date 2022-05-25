@@ -23,6 +23,9 @@
     <router-link to="navbars" class="block mb-4 hover:underline"
       >Navbars</router-link
     >
+    <router-link to="pagination" class="block mb-4 hover:underline"
+      >Pagination</router-link
+    >
     <router-link to="tables" class="block mb-4 hover:underline"
       >Tables</router-link
     >

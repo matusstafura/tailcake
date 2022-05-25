@@ -21,6 +21,7 @@ const components = [
   require.context("./components/Cta", false, /\.(js|vue)$/i),
   require.context("./components/Footers", false, /\.(js|vue)$/i),
   require.context("./components/Navbars", false, /\.(js|vue)$/i),
+  require.context("./components/Pagination", false, /\.(js|vue)$/i),
   require.context("./components/Tables", false, /\.(js|vue)$/i),
 ];
 

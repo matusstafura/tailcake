@@ -9,6 +9,7 @@ import Alerts from "@/components/Alerts";
 import Footer from "@/components/Footer";
 import Table from "@/components/Table";
 import Content from "@/components/Content";
+import Pagination from "@/components/Pagination";
 import Cta from "@/components/Cta";
 import PageNotFound from "../views/PageNotFound.vue";
 import Creator from "@/views/Creator.vue";
@@ -63,6 +64,11 @@ const routes = [
     path: "/navbars",
     name: "navbars",
     component: Navbar,
+  },
+  {
+    path: "/pagination",
+    name: "pagination",
+    component: Pagination,
   },
   {
     path: "/tables",
