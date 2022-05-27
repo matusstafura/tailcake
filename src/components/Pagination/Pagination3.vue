@@ -1,0 +1,39 @@
+<template>
+  <Element :title="title" :code="code"></Element>
+</template>
+
+<script>
+import Element from "../Element.vue";
+export default {
+  components: { Element },
+  name: "Compact with border",
+  data() {
+    return {
+      code: `
+<div class="flex justify-center">
+  <nav class="flex -space-x-px text-gray-500 dark:text-gray-200">
+    <a href="#" class="px-2 py-2 border rounded-l hover:bg-gray-200">
+      <svg class="w-5 h-4 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+      </svg>
+    </a>
+    <a href="#" class="px-4 py-2 border hover:bg-gray-200">1</a>
+    <a href="#" class="px-4 py-2 border hover:bg-gray-200">2</a>
+    <a href="#" class="px-4 py-2 bg-blue-100 border hover:bg-gray-200 dark:bg-gray-400 dark:text-white">3</a>
+    <a href="#" class="px-4 py-2 border hover:bg-gray-200">...</a>
+    <a href="#" class="px-4 py-2 border hover:bg-gray-200">100</a>
+    <a href="#" class="px-2 py-2 border rounded-r hover:bg-gray-200">
+      <svg class="w-5 h-4 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+      </svg>
+    </a>
+  </nav>
+</div>
+`,
+      title: "Compact with border",
+    };
+  },
+};
+</script>
+
+<style scoped></style>
