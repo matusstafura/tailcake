@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import Blog from "@/components/Blog.vue";
 import Button from "@/components/Button.vue";
+import Cta from "@/components/Cta";
 import Navbar from "@/components/Navbar.vue";
 import Commerce from "@/components/Commerce.vue";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -10,7 +11,7 @@ import Footer from "@/components/Footer";
 import Table from "@/components/Table";
 import Content from "@/components/Content";
 import Pagination from "@/components/Pagination";
-import Cta from "@/components/Cta";
+import Notifications from "@/components/Notifications";
 import PageNotFound from "../views/PageNotFound.vue";
 
 const routes = [{
@@ -62,6 +63,11 @@ const routes = [{
         path: "/navbars",
         name: "navbars",
         component: Navbar,
+    },
+    {
+        path: "/notifications",
+        name: "notifications",
+        component: Notifications,
     },
     {
         path: "/pagination",
