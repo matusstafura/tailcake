@@ -10,7 +10,6 @@ export default {
   data() {
     return {
       code: `
-
 <div class="rounded-xl shadow-lg bg-slate-50 md:w-[24rem] w-96 text-center">
   <div class="px-10 py-8 leading-8">
     <div class="text-xl font-semibold text-slate-700">
