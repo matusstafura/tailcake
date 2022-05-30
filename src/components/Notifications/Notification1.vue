@@ -10,7 +10,7 @@ export default {
   data() {
     return {
       code: `
-<div class="flex justify-between w-1/4 bg-white border border-gray-200 rounded-lg shadow-lg">
+<div class="flex justify-between bg-white border border-gray-200 rounded-lg shadow-lg md:w-[32rem] w-96">
   <div class="px-6 py-4 text-gray-600">Email sent</div>
   <div class="px-6 py-4 text-blue-500">
     <a href="#" class="hover:underline">Close</a>
