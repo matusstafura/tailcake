@@ -12,7 +12,7 @@
         https://github.com/matusstafura/tailcake
       </a>
     </p>
+    <br />
+    <p>Checkout the web weekly for more new features and updates 🙈.</p>
   </div>
 </template>
-
-<script></script>

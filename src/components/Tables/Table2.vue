@@ -6,68 +6,73 @@
 import Element from "../Element.vue";
 export default {
   components: { Element },
-  name: "Pricing Plan",
+  name: "General Table",
   data() {
     return {
-      code: `<section>
-  <div class="container grid grid-cols-1 gap-8 mx-auto lg:grid-cols-3 xl:max-w-screen-xl dark:text-white">
-    <div class="flex flex-col justify-between bg-white border rounded-md shadow-lg bg-gray-50 dark:bg-gray-500">
-      <div class="p-8">
-        <h5 class="mb-4 text-xl font-semibold">Easy</h5>
-        <div class="text-sm text-gray-500 dark:text-gray-100">bronze</div>
-        <div class="text-3xl">SEK 70:-</div>
-        <hr class="my-5" />
-        <div class="mb-4">
-          <div>25 Projects</div>
-          <div>10 mySQL Database</div>
-          <div>25 GB of Storage</div>
-          <div>Premium Support</div>
-        </div>
-      </div>
-      <div class="p-8 text-center">
-        <button class="px-6 py-3 font-semibold text-white bg-blue-400 rounded shadow-lg dark:bg-white dark:text-black hover:bg-blue-500 dark:bg-blue-300 dark:text-white">Select plan</button>
-      </div>
-    </div>
-    <div class="flex flex-col justify-between bg-white border rounded-md shadow-lg bg-gray-50 dark:bg-gray-500">
-      <div class="p-8">
-        <h5 class="mb-4 text-xl font-semibold">Easy</h5>
-        <div class="text-sm text-gray-500 dark:text-gray-100">silver</div>
-        <div class="text-3xl">SEK 70:-</div>
-        <hr class="my-5" />
-        <div class="mb-4">
-          <div>25 Projects</div>
-          <div>10 mySQL Database</div>
-          <div>25 GB of Storage</div>
-          <div>Premium Support</div>
-        </div>
-      </div>
-      <div class="p-8 text-center">
-        <button class="px-6 py-3 font-semibold text-white bg-blue-400 rounded shadow-lg dark:bg-white dark:text-black hover:bg-blue-500 dark:bg-blue-300 dark:text-white"">Select plan</button>
-			</div>
-		</div>
-		<div class="flex flex-col justify-between bg-white border rounded-md shadow-lg  bg-gray-50 dark:bg-gray-500">
-          <div class="p-8">
-            <h5 class="mb-4 text-xl font-semibold">Easy</h5>
-            <div class="text-sm text-gray-500 dark:text-gray-100">gold</div>
-            <div class="text-3xl">SEK 70:-</div>
-            <hr class="my-5" />
-            <div class="mb-4">
-              <div>25 Projects</div>
-              <div>10 mySQL Database</div>
-              <div>25 GB of Storage</div>
-              <div>Premium Support</div>
-            </div>
-          </div>
-          <div class="p-8 text-center">
-            <button class="px-6 py-3 font-semibold text-white bg-blue-400 rounded shadow-lg dark:bg-white dark:text-black hover:bg-blue-500 dark:bg-blue-300 dark:text-white"">Select plan</button>
-			</div>
-		</div>
-	</div>
-</section>`,
-      title: "Pricing Plan",
+      code: `
+<table class="w-full text-sm text-left bg-white shadow">
+
+  <thead class="text-gray-600 bg-gray-50 dark:text-gray-200 dark:bg-gray-600 dark:bg-gray-400">
+    <tr class="text-left uppercase">
+      <th class="p-4">Order</th>
+      <th class="p-4">Invoice</th>
+      <th class="p-4">Items</th>
+      <th class="p-4">Customer</th>
+      <th class="p-4">Status</th>
+      <th class="p-4">Payment</th>
+      <th class="p-4">Total</th>
+      <th class="p-4">Action</th>
+    </tr>
+  </thead>
+
+  <tbody class="dark:text-gray-300 dark:bg-gray-500">
+    <tr class="border-b dark:border-gray-600">
+      <td class="p-4">100010070</td>
+      <td class="p-4">INV1991</td>
+      <td class="p-4">Items</td>
+      <td class="p-4">John Doe</td>
+      <td class="p-4">pending</td>
+      <td class="p-4">Stripe</td>
+      <td class="p-4">123.99</td>
+      <td class="p-4">
+        <a href="#" class="px-4 py-2 text-white bg-blue-400 rounded hover:bg-blue-500">view</a>
+      </td>
+    </tr>
+  </tbody>
+
+  <tbody class="bg-green-100 dark:text-gray-300 dark:bg-gray-500">
+    <tr class="border-b dark:border-gray-700">
+      <td class="p-4">100010070</td>
+      <td class="p-4">INV1991</td>
+      <td class="p-4">Items</td>
+      <td class="p-4">John Doe</td>
+      <td class="p-4">pending</td>
+      <td class="p-4">Stripe</td>
+      <td class="p-4">1339.44</td>
+      <td class="p-4">
+        <a href="#" class="px-4 py-2 text-white bg-blue-400 rounded hover:bg-blue-500">view</a>
+      </td>
+    </tr>
+  </tbody>
+
+  <tbody class="dark:text-gray-300 dark:bg-gray-500">
+    <tr>
+      <td class="p-4">100010070</td>
+      <td class="p-4">INV1991</td>
+      <td class="p-4">Items</td>
+      <td class="p-4">John Doe</td>
+      <td class="p-4">canceled</td>
+      <td class="p-4">PayPal</td>
+      <td class="p-4">23.11</td>
+      <td class="p-4">
+        <a href="#" class="px-4 py-2 text-white bg-blue-400 rounded hover:bg-blue-500">view</a>
+      </td>
+    </tr>
+  </tbody>
+
+</table>`,
+      title: "General Table",
     };
   },
 };
 </script>
-
-<style scoped></style>

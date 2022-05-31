@@ -1,17 +1,18 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
-import Blog from "@/components/Blog.vue";
-import Button from "@/components/Button.vue";
-import Cta from "@/components/Cta";
-import Navbar from "@/components/Navbar.vue";
-import Commerce from "@/components/Commerce.vue";
-import Breadcrumbs from "@/components/Breadcrumbs";
 import Alerts from "@/components/Alerts";
-import Footer from "@/components/Footer";
-import Table from "@/components/Table";
+import Blog from "@/components/Blog.vue";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import Button from "@/components/Button.vue";
+import Commerce from "@/components/Commerce.vue";
 import Content from "@/components/Content";
-import Pagination from "@/components/Pagination";
+import Cta from "@/components/Cta";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar.vue";
 import Notifications from "@/components/Notifications";
+import Pagination from "@/components/Pagination";
+import Pricing from "@/components/Pricing";
+import Table from "@/components/Table";
 import PageNotFound from "../views/PageNotFound.vue";
 
 const routes = [{
@@ -73,6 +74,11 @@ const routes = [{
         path: "/pagination",
         name: "pagination",
         component: Pagination,
+    },
+    {
+        path: "/pricing",
+        name: "pricing",
+        component: Pricing,
     },
     {
         path: "/tables",

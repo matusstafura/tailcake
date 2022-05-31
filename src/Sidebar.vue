@@ -29,6 +29,9 @@
     <router-link to="pagination" class="block mb-4 hover:underline"
       >Pagination</router-link
     >
+    <router-link to="pricing" class="block mb-4 hover:underline"
+      >Pricing</router-link
+    >
     <router-link to="tables" class="block mb-4 hover:underline"
       >Tables</router-link
     >

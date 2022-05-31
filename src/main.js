@@ -23,6 +23,7 @@ const components = [
     require.context("./components/Navbars", false, /\.(js|vue)$/i),
     require.context("./components/Notifications", false, /\.(js|vue)$/i),
     require.context("./components/Pagination", false, /\.(js|vue)$/i),
+    require.context("./components/Pricing", false, /\.(js|vue)$/i),
     require.context("./components/Tables", false, /\.(js|vue)$/i),
 ];
 
