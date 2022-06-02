@@ -4,6 +4,7 @@ import Alerts from "@/components/Alerts";
 import Blog from "@/components/Blog.vue";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Button from "@/components/Button.vue";
+import Cards from "@/components/Cards.vue";
 import Commerce from "@/components/Commerce.vue";
 import Content from "@/components/Content";
 import Cta from "@/components/Cta";
@@ -35,6 +36,11 @@ const routes = [
     path: "/breadcrumbs",
     name: "breadcrumbs",
     component: Breadcrumbs,
+  },
+  {
+    path: "/cards",
+    name: "cards",
+    component: Cards,
   },
   {
     path: "/commerce",

@@ -16,6 +16,7 @@ const components = [
   require.context("./components/Blog", false, /\.(js|vue)$/i),
   require.context("./components/Breadcrumbs", false, /\.(js|vue)$/i),
   require.context("./components/Buttons", false, /\.(js|vue)$/i),
+  require.context("./components/Cards", false, /\.(js|vue)$/i),
   require.context("./components/Commerce", false, /\.(js|vue)$/i),
   require.context("./components/Content", false, /\.(js|vue)$/i),
   require.context("./components/Cta", false, /\.(js|vue)$/i),

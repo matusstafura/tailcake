@@ -10,6 +10,9 @@
     <router-link to="buttons" class="block mb-4 hover:underline"
       >Buttons</router-link
     >
+    <router-link to="cards" class="block mb-4 hover:underline"
+      >Cards</router-link
+    >
     <router-link to="commerce" class="block mb-4 hover:underline"
       >Commerce</router-link
     >
