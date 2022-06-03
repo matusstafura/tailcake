@@ -6,11 +6,11 @@
 import Element from "../Element.vue";
 export default {
   components: { Element },
-  name: "Card with image",
+  name: "Card with image horizontal",
   data() {
     return {
       code: `
-<section class="max-w-screen-md bg-white border rounded-lg shadow-lg border-gray-50 dark:text-gray-400">
+<section class="max-w-screen-md bg-white rounded-lg drop-shadow-md dark:text-gray-400">
   <div class="grid grid-cols-1 dark:bg-gray-500 lg:grid-cols-2">
     <div class="relative h-64 pb-2/3">
       <img src="https://tailcake.netlify.app/images/blog/3.jpg" alt="thumbnail" class="absolute bottom-0 object-cover w-full h-full rounded-l-lg" />
@@ -25,9 +25,8 @@ export default {
     </div>
   </div>
 </section>
-
 `,
-      title: "Card with image",
+      title: "Card with image horizontal",
     };
   },
 };

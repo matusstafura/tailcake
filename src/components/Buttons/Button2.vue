@@ -10,8 +10,10 @@ export default {
   data() {
     return {
       code: `
-      <a href="#" class="px-6 py-2 mr-2 text-white bg-indigo-500 rounded-3xl hover:bg-black"> <span>Get in touch</span> <svg fill="#ffffff" class="inline w-3 ml-2 -mt-1 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z"/></svg> </a>
-      <a href="#" class="px-20 py-2 mr-2 text-white rounded-md bg-emerald-400 hover:bg-black"> <span>Subscribe</span> </a>
+<button class="flex px-4 py-2 m-2 text-white bg-blue-400 rounded shadow-md hover:bg-blue-500 dark:hover:bg-blue-500 dark:hover:text-gray-100">
+  <svg class="w-4 mr-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#ffffff"><path d="M4.558 7l4.701-4.702c.199-.198.46-.298.721-.298.613 0 1.02.505 1.02 1.029 0 .25-.092.504-.299.711l-3.26 3.26h-2.883zm12.001 0h2.883l-4.701-4.702c-.199-.198-.46-.298-.721-.298-.613 0-1.02.505-1.02 1.029 0 .25.092.504.299.711l3.26 3.26zm3.703 4l-.016.041-3.598 8.959h-9.296l-3.597-8.961-.016-.039h16.523zm3.738-2h-24v2h.643c.534 0 1.021.304 1.256.784l4.101 10.216h12l4.102-10.214c.233-.481.722-.786 1.256-.786h.642v-2z" /></svg>
+  Add to cart
+</button>
 `,
       title: "Commerce",
     };

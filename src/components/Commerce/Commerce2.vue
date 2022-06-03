@@ -6,85 +6,66 @@
 import Element from "../Element.vue";
 export default {
   components: { Element },
-  name: "Sidebar",
+  name: "Product Grid",
   data() {
     return {
       code: `
-<div class="w-1/4 p-4 bg-slate-50">
-  <!-- COLLECTIONS S -->
-  <div class="mb-6 dark:text-white">
-    <p class="pb-4 mb-4 font-semibold tracking-widest uppercase border-b">Collections</p>
 
-    <ul class="font-light leading-9 text-gray-600 dark:text-white">
-      <li><a href="#" class="block hover:text-blue-400">Jeans</a></li>
-      <li><a href="#" class="block hover:text-blue-400">Polo</a></li>
-      <li><a href="#" class="block hover:text-blue-400">Shirts</a></li>
-      <li><a href="#" class="block hover:text-blue-400">Shoes</a></li>
-      <li><a href="#" class="block hover:text-blue-400">Underwear</a></li>
-      <li><a href="#" class="block hover:text-blue-400">T-shirts</a></li>
-    </ul>
-  </div>
-  <!-- COLLECTIONS E -->
-
-  <!-- COLOR S -->
-  <div class="mb-6 dark:text-white">
-    <p class="pb-4 mb-4 font-semibold tracking-widest uppercase border-b">Color</p>
-
-    <ul class="flex font-light leading-9 text-gray-600 dark:text-white">
-      <li class="w-8 h-8 mr-2 bg-white rounded shadow"><a href="#" class="block w-8 h-8 hover:shadow-lg"></a></li>
-      <li class="w-8 h-8 mr-2 bg-yellow-500 rounded shadow"><a href="#" class="block w-8 h-8 hover:shadow-lg"></a></li>
-      <li class="w-8 h-8 mr-2 bg-red-500 rounded shadow"><a href="#" class="block w-8 h-8 hover:shadow-lg"></a></li>
-      <li class="w-8 h-8 mr-2 bg-orange-600 rounded shadow"><a href="#" class="block w-8 h-8 hover:shadow-lg"></a></li>
-      <li class="w-8 h-8 mr-2 bg-green-500 rounded shadow"><a href="#" class="block w-8 h-8 hover:shadow-lg"></a></li>
-      <li class="w-8 h-8 mr-2 bg-blue-500 rounded shadow"><a href="#" class="block w-8 h-8 hover:shadow-lg"></a></li>
-      <li class="w-8 h-8 mr-2 bg-gray-500 rounded shadow"><a href="#" class="block w-8 h-8 hover:shadow-lg"></a></li>
-      <li class="w-8 h-8 mr-2 bg-black rounded shadow"><a href="#" class="block w-8 h-8 hover:shadow-lg"></a></li>
-    </ul>
-  </div>
-  <!-- COLOR E -->
-  <!-- SIZE S -->
-  <div class="mb-6 dark:text-white">
-    <p class="pb-4 mb-4 font-semibold tracking-widest uppercase border-b">SIZE</p>
-
-    <ul class="flex font-light leading-9 text-gray-600 dark:text-white">
-      <li class="w-8 mr-2 text-center bg-gray-100 rounded shadow hover:bg-blue-200 hover:text-blue-600 dark:bg-gray-400 dark:hover:bg-blue-300"><a href="#" class="block">XS</a></li>
-      <li class="w-8 mr-2 text-center bg-gray-100 rounded shadow hover:bg-blue-200 hover:text-blue-600 dark:bg-gray-400 dark:hover:bg-blue-300"><a href="#" class="block">S</a></li>
-      <li class="w-8 mr-2 text-center bg-gray-100 rounded shadow hover:bg-blue-200 hover:text-blue-600 dark:bg-gray-400 dark:hover:bg-blue-300"><a href="#" class="block">M</a></li>
-      <li class="w-8 mr-2 text-center bg-gray-100 rounded shadow hover:bg-blue-200 hover:text-blue-600 dark:bg-gray-400 dark:hover:bg-blue-300"><a href="#" class="block">L</a></li>
-      <li class="w-8 mr-2 text-center bg-gray-100 rounded shadow hover:bg-blue-200 hover:text-blue-600 dark:bg-gray-400 dark:hover:bg-blue-300"><a href="#" class="block">XL</a></li>
-    </ul>
-  </div>
-  <!-- SIZE E -->
-
-  <!-- TAGS S -->
-  <div class="mb-6 dark:text-white">
-    <p class="pb-4 mb-4 font-semibold tracking-widest uppercase border-b">TAGS</p>
-
-    <ul class="flex font-light leading-9 text-gray-600 dark:text-white">
-      <li class="mr-2"><a href="#" class="hover:text-blue-400">summer</a></li>
-      <li class="mr-2"><a href="#" class="hover:text-blue-400">stripped</a></li>
-      <li class="mr-2"><a href="#" class="hover:text-blue-400">polo</a></li>
-      <li class="mr-2"><a href="#" class="hover:text-blue-400">trendy</a></li>
-      <li class="mr-2"><a href="#" class="hover:text-blue-400">hot</a></li>
-    </ul>
-  </div>
-  <!-- TAGS E -->
-
-  <!-- SLIDER S -->
-  <div class="mb-6 dark:text-white">
-    <p class="pb-4 mb-4 font-semibold tracking-widest uppercase border-b">PRICE</p>
-
-    <div class="flex font-light leading-9 text-gray-600 font-blue-200 dark:text-white">
-      10
-      <input type="range" class="mx-4 cursor-pointer" />
-      100
+<div class="grid grid-cols-1 gap-x-8 gap-y-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 dark:text-white">
+  <div>
+    <div>
+      <img src="https://tailcake.netlify.app/images/commerce/3.jpg" />
+    </div>
+    <div class="mt-4">
+      <a href="#" class="hover:text-blue-500">
+        <h3>Shirt</h3>
+      </a>
+      <p class="text-sm text-gray-500">Navy Blue</p>
+      <p class="text-xl">1220kr</p>
     </div>
   </div>
-  <!-- SLIDER E -->
+  <div>
+    <div>
+      <img src="https://tailcake.netlify.app/images/commerce/4.jpg" />
+    </div>
+    <div class="mt-4">
+      <a href="#" class="hover:text-blue-500">
+        <h3>Shirt</h3>
+      </a>
+      <p class="text-sm text-gray-500">Navy Blue</p>
+      <p class="text-xl">1220kr</p>
+    </div>
+  </div>
+  <div>
+    <div>
+      <img src="https://tailcake.netlify.app/images/commerce/5.jpg" />
+    </div>
+    <div class="mt-4">
+      <a href="#" class="hover:text-blue-500">
+        <h3>Shirt</h3>
+      </a>
+      <p class="text-sm text-gray-500">Navy Blue</p>
+      <p class="text-xl">1220kr</p>
+    </div>
+  </div>
+  <div>
+    <div>
+      <img src="https://tailcake.netlify.app/images/commerce/6.jpg" />
+    </div>
+    <div class="mt-4">
+      <a href="#" class="hover:text-blue-500">
+        <h3>Shirt</h3>
+      </a>
+      <p class="text-sm text-gray-500">Navy Blue</p>
+      <p class="text-xl">1220kr</p>
+    </div>
+  </div>
 </div>
 `,
-      title: "Sidebar",
+      title: "Product Grid",
     };
   },
 };
 </script>
+
+<style scoped></style>
