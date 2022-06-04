@@ -13,6 +13,7 @@ import Navbar from "@/components/Navbar.vue";
 import Notifications from "@/components/Notifications";
 import Pagination from "@/components/Pagination";
 import Pricing from "@/components/Pricing";
+import Sidebar from "@/components/Sidebar";
 import Table from "@/components/Table";
 import PageNotFound from "../views/PageNotFound.vue";
 
@@ -86,6 +87,11 @@ const routes = [
     path: "/pricing",
     name: "pricing",
     component: Pricing,
+  },
+  {
+    path: "/sidebar",
+    name: "sidebar",
+    component: Sidebar,
   },
   {
     path: "/tables",

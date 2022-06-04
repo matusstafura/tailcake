@@ -10,12 +10,12 @@ export default {
   data() {
     return {
       code: `
-<div class="w-1/4 p-4 bg-slate-50">
+<div class="max-w-md p-4 bg-slate-50 dark:bg-slate-700">
   <!-- COLLECTIONS S -->
-  <div class="mb-6 dark:text-white">
-    <p class="pb-4 mb-4 font-semibold tracking-widest uppercase border-b">Collections</p>
+  <div class="mb-6">
+    <p class="pb-4 mb-4 font-semibold tracking-widest uppercase border-b dark:text-slate-200">Collections</p>
 
-    <ul class="font-light leading-9 text-gray-600 dark:text-white">
+    <ul class="font-light leading-9 text-gray-600 dark:text-slate-400">
       <li><a href="#" class="block hover:text-blue-400">Jeans</a></li>
       <li><a href="#" class="block hover:text-blue-400">Polo</a></li>
       <li><a href="#" class="block hover:text-blue-400">Shirts</a></li>
@@ -30,7 +30,7 @@ export default {
   <div class="mb-6 dark:text-white">
     <p class="pb-4 mb-4 font-semibold tracking-widest uppercase border-b">Color</p>
 
-    <ul class="flex font-light leading-9 text-gray-600 dark:text-white">
+    <ul class="flex font-light leading-9 text-gray-600">
       <li class="w-8 h-8 mr-2 bg-white rounded shadow"><a href="#" class="block w-8 h-8 hover:shadow-lg"></a></li>
       <li class="w-8 h-8 mr-2 bg-yellow-500 rounded shadow"><a href="#" class="block w-8 h-8 hover:shadow-lg"></a></li>
       <li class="w-8 h-8 mr-2 bg-red-500 rounded shadow"><a href="#" class="block w-8 h-8 hover:shadow-lg"></a></li>
@@ -43,10 +43,10 @@ export default {
   </div>
   <!-- COLOR E -->
   <!-- SIZE S -->
-  <div class="mb-6 dark:text-white">
+  <div class="mb-6 dark:text-slate-200">
     <p class="pb-4 mb-4 font-semibold tracking-widest uppercase border-b">SIZE</p>
 
-    <ul class="flex font-light leading-9 text-gray-600 dark:text-white">
+    <ul class="flex font-light leading-9 text-gray-600 dark:text-slate-200">
       <li class="w-8 mr-2 text-center bg-gray-100 rounded shadow hover:bg-blue-200 hover:text-blue-600 dark:bg-gray-400 dark:hover:bg-blue-300"><a href="#" class="block">XS</a></li>
       <li class="w-8 mr-2 text-center bg-gray-100 rounded shadow hover:bg-blue-200 hover:text-blue-600 dark:bg-gray-400 dark:hover:bg-blue-300"><a href="#" class="block">S</a></li>
       <li class="w-8 mr-2 text-center bg-gray-100 rounded shadow hover:bg-blue-200 hover:text-blue-600 dark:bg-gray-400 dark:hover:bg-blue-300"><a href="#" class="block">M</a></li>
@@ -57,10 +57,10 @@ export default {
   <!-- SIZE E -->
 
   <!-- TAGS S -->
-  <div class="mb-6 dark:text-white">
+  <div class="mb-6 dark:text-slate-200">
     <p class="pb-4 mb-4 font-semibold tracking-widest uppercase border-b">TAGS</p>
 
-    <ul class="flex font-light leading-9 text-gray-600 dark:text-white">
+    <ul class="flex font-light leading-9 text-gray-600 dark:text-slate-400">
       <li class="mr-2"><a href="#" class="hover:text-blue-400">summer</a></li>
       <li class="mr-2"><a href="#" class="hover:text-blue-400">stripped</a></li>
       <li class="mr-2"><a href="#" class="hover:text-blue-400">polo</a></li>
@@ -71,10 +71,10 @@ export default {
   <!-- TAGS E -->
 
   <!-- SLIDER S -->
-  <div class="mb-6 dark:text-white">
+  <div class="mb-6 dark:text-slate-200">
     <p class="pb-4 mb-4 font-semibold tracking-widest uppercase border-b">PRICE</p>
 
-    <div class="flex font-light leading-9 text-gray-600 font-blue-200 dark:text-white">
+    <div class="flex font-light leading-9 text-gray-600 font-blue-200 dark:text-slate-400">
       10
       <input type="range" class="mx-4 cursor-pointer" />
       100

@@ -35,6 +35,9 @@
     <router-link to="pricing" class="block mb-4 hover:underline"
       >Pricing</router-link
     >
+    <router-link to="sidebar" class="block mb-4 hover:underline"
+      >Sidebar</router-link
+    >
     <router-link to="tables" class="block mb-4 hover:underline"
       >Tables</router-link
     >
