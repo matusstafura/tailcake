@@ -54,7 +54,6 @@ export default {
   methods: {
     toggleMenu() {
       this.sidebar = !this.sidebar;
-      console.log(this.menu);
     },
   },
 };

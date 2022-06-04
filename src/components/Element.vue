@@ -77,9 +77,9 @@
     </div>
     <div v-show="active">
       <highlightjs
-        language="js"
+        language="html"
         :code="code"
-        class="text-sm whitespace-pre-line"
+        class="text-[0.8rem] whitespace-pre-wrap"
       />
     </div>
     <div></div>
