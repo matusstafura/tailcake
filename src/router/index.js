@@ -9,6 +9,7 @@ import Commerce from "@/components/Commerce.vue";
 import Content from "@/components/Content";
 import Cta from "@/components/Cta";
 import Footer from "@/components/Footer";
+import Forms from "@/components/Forms";
 import Navbar from "@/components/Navbar.vue";
 import Notifications from "@/components/Notifications";
 import Pagination from "@/components/Pagination";
@@ -62,6 +63,11 @@ const routes = [
     path: "/footer",
     name: "footer",
     component: Footer,
+  },
+  {
+    path: "/forms",
+    name: "forms",
+    component: Forms,
   },
   {
     path: "/blog",

@@ -23,6 +23,9 @@
     <router-link to="footer" class="block mb-4 hover:underline"
       >Footers</router-link
     >
+    <router-link to="forms" class="block mb-4 hover:underline"
+      >Forms</router-link
+    >
     <router-link to="navbars" class="block mb-4 hover:underline"
       >Navbars</router-link
     >
