@@ -25,7 +25,7 @@ export default {
 <div class="py-10 bg-blue-50">
   <div class="max-w-4xl mx-auto text-center">
     <div class="mb-8 text-blue-500 uppercase">ANALYZE NOW</div>
-    <div class="mb-12 text-5xl font-light">Wonder how much faster your website can go? Easily check your SEO Score now.</div>
+    <div class="px-24 mb-12 text-5xl font-light">Wonder how much faster your website can go? Easily check your SEO Score now.</div>
     <div class="relative rounded-md">
       <div class="">
         <input type="text" id="url" class="w-1/2 p-4 mx-auto placeholder-gray-400 bg-white rounded-l shadow text-slate-700" placeholder="Enter URL" />

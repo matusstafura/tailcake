@@ -11,6 +11,7 @@ export default {
     return {
       code: `
 <div class="flex justify-between items-center py-4 text-[0.9rem] dark:text-white font-medium">
+  <svg class="flex ml-4 lg:hidden" width="24" height="24"><path d="M5 6h14M5 12h14M5 18h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg>
   <nav class="hidden lg:flex">
     <ul class="flex gap-x-2">
       <li><a href="#" class="rounded-3xl px-4 py-[0.4rem] hover:bg-slate-200 dark:hover:text-slate-700">Home</a></li>
@@ -31,6 +32,7 @@ export default {
     </div>
   </div>
 </div>
+
 `,
       title: "App menu",
     };
