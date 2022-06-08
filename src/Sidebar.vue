@@ -38,6 +38,9 @@
     <router-link to="pricing" class="block mb-4 hover:underline"
       >Pricing</router-link
     >
+    <router-link to="ratings" class="block mb-4 hover:underline"
+      >Ratings</router-link
+    >
     <router-link to="sidebar" class="block mb-4 hover:underline"
       >Sidebar</router-link
     >

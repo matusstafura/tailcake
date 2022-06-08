@@ -26,6 +26,7 @@ const components = [
   require.context("./components/Notifications", false, /\.(js|vue)$/i),
   require.context("./components/Pagination", false, /\.(js|vue)$/i),
   require.context("./components/Pricing", false, /\.(js|vue)$/i),
+  require.context("./components/Ratings", false, /\.(js|vue)$/i),
   require.context("./components/Sidebar", false, /\.(js|vue)$/i),
   require.context("./components/Tables", false, /\.(js|vue)$/i),
 ];

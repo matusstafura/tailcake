@@ -14,6 +14,7 @@ import Navbar from "@/components/Navbar.vue";
 import Notifications from "@/components/Notifications";
 import Pagination from "@/components/Pagination";
 import Pricing from "@/components/Pricing";
+import Ratings from "@/components/Ratings";
 import Sidebar from "@/components/Sidebar";
 import Table from "@/components/Table";
 import PageNotFound from "../views/PageNotFound.vue";
@@ -93,6 +94,11 @@ const routes = [
     path: "/pricing",
     name: "pricing",
     component: Pricing,
+  },
+  {
+    path: "/ratings",
+    name: "ratings",
+    component: Ratings,
   },
   {
     path: "/sidebar",
