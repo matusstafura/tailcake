@@ -16,6 +16,7 @@ import Pagination from "@/components/Pagination";
 import Pricing from "@/components/Pricing";
 import Ratings from "@/components/Ratings";
 import Sidebar from "@/components/Sidebar";
+import Steps from "@/components/Steps";
 import Table from "@/components/Table";
 import PageNotFound from "../views/PageNotFound.vue";
 
@@ -104,6 +105,11 @@ const routes = [
     path: "/sidebar",
     name: "sidebar",
     component: Sidebar,
+  },
+  {
+    path: "/steps",
+    name: "steps",
+    component: Steps,
   },
   {
     path: "/tables",

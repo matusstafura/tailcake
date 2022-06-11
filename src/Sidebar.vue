@@ -44,6 +44,9 @@
     <router-link to="sidebar" class="block mb-4 hover:underline"
       >Sidebar</router-link
     >
+    <router-link to="steps" class="block mb-4 hover:underline"
+      >Steps</router-link
+    >
     <router-link to="tables" class="block mb-4 hover:underline"
       >Tables</router-link
     >

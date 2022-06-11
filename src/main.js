@@ -28,6 +28,7 @@ const components = [
   require.context("./components/Pricing", false, /\.(js|vue)$/i),
   require.context("./components/Ratings", false, /\.(js|vue)$/i),
   require.context("./components/Sidebar", false, /\.(js|vue)$/i),
+  require.context("./components/Steps", false, /\.(js|vue)$/i),
   require.context("./components/Tables", false, /\.(js|vue)$/i),
 ];
 
