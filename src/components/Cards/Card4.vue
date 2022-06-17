@@ -16,7 +16,7 @@ export default {
       <a href="#" class="hover:text-blue-600 dark:text-blue-400">
         <img src="https://tailcake.netlify.app/images/blog/1.jpg" alt="thumbnail" class="w-full rounded-t-lg" />
         <div class="p-8">
-          <div class="mb-2 text-sm text-gray-400">Business</div>
+          <div class="mb-2 text-sm text-gray-400 dark:text-gray-300">Business</div>
           <h2 class="mb-2 text-2xl font-semibold">Here are the 5 working steps on success</h2>
           <p class="mb-4 text-gray-600 dark:text-gray-200">Brownie soufflé jelly beans liquorice wafer shortbread cotton candy tart shortbread. Lemon drops pudding candy canes muffin powder. Sugar plum croissant powder ice cream dessert chupa chups.</p>
         </div>

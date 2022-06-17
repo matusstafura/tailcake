@@ -11,22 +11,22 @@ export default {
     return {
       code: `
 <form>
-  <div class="grid max-w-lg gap-y-4 p-4">
+  <div class="grid max-w-lg p-4 gap-y-4">
     <div>
-      <label for="firstname" class="mb-2 block text-sm font-semibold">First Name</label>
-      <input type="text" placeholder="John" class="w-full rounded-lg border border-gray-200 bg-slate-50 p-2" />
+      <label for="firstname" class="block mb-2 text-sm font-semibold dark:text-gray-100">First Name</label>
+      <input type="text" placeholder="John" class="w-full p-2 border border-gray-200 rounded-lg bg-slate-50 dark:bg-gray-300" />
     </div>
     <div>
-      <label for="firstname" class="mb-2 block text-sm font-semibold">Surname</label>
-      <input type="text" placeholder="Smith" class="w-full rounded-lg border border-gray-200 bg-slate-50 p-2" />
+      <label for="firstname" class="block mb-2 text-sm font-semibold dark:text-gray-100">Surname</label>
+      <input type="text" placeholder="Smith" class="w-full p-2 border border-gray-200 rounded-lg bg-slate-50 dark:bg-gray-300" />
     </div>
     <div>
-      <label for="firstname" class="mb-2 block text-sm font-semibold">Bio</label>
-      <textarea type="text" rows="4" placeholder="About you" class="w-full rounded-lg border border-gray-200 bg-slate-50 p-2"></textarea>
+      <label for="firstname" class="block mb-2 text-sm font-semibold dark:text-gray-100">Bio</label>
+      <textarea type="text" rows="4" placeholder="About you" class="w-full p-2 border border-gray-200 rounded-lg bg-slate-50 dark:bg-gray-300"></textarea>
     </div>
 
     <div>
-      <button class="right-0 flex rounded bg-blue-400 px-4 py-2 text-white shadow-md hover:bg-blue-500 dark:hover:bg-blue-500 dark:hover:text-gray-100">Save</button>
+      <button class="right-0 flex px-4 py-2 text-white bg-blue-400 rounded shadow-md hover:bg-blue-500 dark:hover:bg-blue-500 dark:hover:text-gray-100">Save</button>
     </div>
   </div>
 </form>

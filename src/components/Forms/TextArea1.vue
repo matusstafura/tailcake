@@ -11,7 +11,7 @@ export default {
     return {
       code: `
 <div class="max-w-md">
-  <textarea class="w-full p-4 text-gray-500 border rounded-lg shadow-sm" maxlength="3000" rows="10" placeholder="Insert text" name="textarea"></textarea>
+  <textarea class="w-full p-4 text-gray-500 border rounded-lg shadow-sm dark:bg-gray-300" maxlength="3000" rows="10" placeholder="Insert text" name="textarea"></textarea>
 </div>
 `,
       title: "Basic",

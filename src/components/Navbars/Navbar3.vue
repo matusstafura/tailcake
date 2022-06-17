@@ -22,7 +22,7 @@ export default {
     </ul>
   </nav>
   <div class="flex items-center pr-4 text-gray-900"> 
-    <a href="#" class="rounded-3xl px-4 py-[0.4rem] hover:bg-slate-200 dark:hover:text-slate-700">Settings</a>
+    <a href="#" class="rounded-3xl px-4 py-[0.4rem] hover:bg-slate-200 dark:hover:text-slate-700 dark:text-gray-100">Settings</a>
     <div class="flex items-center">
       <p class="mx-2 dark:text-gray-300">Developer</p>
       <label for="default-toggle" class="relative inline-flex cursor-pointer">

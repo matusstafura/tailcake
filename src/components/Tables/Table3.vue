@@ -11,9 +11,9 @@ export default {
     return {
       code: `
 <div>
-  <p class="text-2xl font-bold">Payments</p>
+  <p class="text-2xl font-bold dark:text-gray-300">Payments</p>
   <table class="w-full text-left">
-    <thead class="text-sm uppercase text-gray-700">
+    <thead class="text-sm text-gray-700 uppercase dark:text-gray-300">
       <tr class="border-b">
         <th class="py-2">All</th>
         <th class="py-2">Name</th>
@@ -31,25 +31,25 @@ export default {
         </th>
       </tr>
     </thead>
-    <tbody>
+    <tbody class="dark:text-gray-300">
       <tr class="border-b">
         <td>
           <div class="flex items-center">
-            <input id="checkbox-table-1" type="checkbox" class="h-4 w-4 rounded border-gray-300 bg-gray-100 text-blue-600" />
+            <input id="checkbox-table-1" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded" />
             <label for="checkbox-table-1" class="sr-only">checkbox</label>
           </div>
         </td>
         <td class="py-2">James L. Coombs</td>
-        <td class="py-2 font-light text-gray-500">jameslcoombs@example.com</td>
+        <td class="py-2 font-light text-gray-500 dark:text-gray-300">jameslcoombs@example.com</td>
         <td class="py-2">USD33.44</td>
       </tr>
     </tbody>
   </table>
-  <div class="mt-4 flex justify-between py-2 text-sm text-gray-500">
+  <div class="flex justify-between py-2 mt-4 text-sm text-gray-500 dark:text-gray-300">
     <span>123 results</span>
     <div>
-      <a href="/previous" class="ml-2 rounded border p-2 shadow">Previous</a>
-      <a href="/next" class="ml-2 rounded border p-2 text-gray-800 shadow">Next</a>
+      <a href="/previous" class="p-2 ml-2 border rounded shadow">Previous</a>
+      <a href="/next" class="p-2 ml-2 text-gray-800 border rounded shadow dark:text-gray-100">Next</a>
     </div>
   </div>
 </div>

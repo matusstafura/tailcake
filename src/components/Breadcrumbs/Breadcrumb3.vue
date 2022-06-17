@@ -41,7 +41,7 @@ export default {
     <div class="mr-2">
       <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAA8UlEQVRIiWNgoDFgRBeo6JmdRpTG//9V//1lOtBZkbKVJAuapiz57G5rzEPIgss3HzA8e/X2//ev38Pay1PXEOMoBgYGBoauWStf/ycCrNt55P+VW/f/d8xY/re8e3YMLvOYiLYZCxDg42FIi/BhEuTlWYjLEoosYGBgYBDkx28JCyWG7z9xkYGbk4OBgYGBQViQj+nL9x+LGBgYllDFAkcLfYav33+giC3asPsjujqyLRDg42EQ4ENNbCxMzH/Q1VEcB4TAqAWjFoxaMGoBEQCjsPvx6zfHqUs3yDLsx6/fHAQt+Pbje/H63UfIsmBAAABTEW7Ikmo6GwAAAABJRU5ErkJggg==" />
     </div>
-    <a href="#" class="text-gray-500 hover:text-blue-500 dark:hover:text-blue-300">TODO.md</a>
+    <a href="#" class="text-gray-500 dark:text-gray-100 hover:text-blue-500 dark:hover:text-blue-300">TODO.md</a>
   </div>
 </nav>
 `,

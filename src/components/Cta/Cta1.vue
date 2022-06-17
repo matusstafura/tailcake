@@ -14,8 +14,8 @@ export default {
   <div class="p-8 xl:flex md:justify-between">
     <h3 class="my-2 text-3xl font-bold">Ready to try our award winning service</h3>
     <div class="flex mt-4 lg:my-auto">
-      <a href="#" class="px-6 py-3 font-light text-white bg-green-400 rounded shadow-lg hover:bg-green-500">Get Started Now</a>
-      <a href="#" class="px-6 py-3 ml-3 font-light text-green-400 bg-white rounded shadow-lg hover:text-green-500">Read details</a>
+      <a href="#" class="px-6 py-3 font-light bg-green-400 rounded shadow-lg text-green-50 hover:bg-green-500">Get Started Now</a>
+      <a href="#" class="px-6 py-3 ml-3 font-light text-green-600 bg-white rounded shadow-lg hover:text-green-500 dark:bg-gray-400 dark:text-gray-100">Read details</a>
     </div>
   </div>
 </section>
