@@ -6,73 +6,79 @@
 import Element from "../Element.vue";
 export default {
   components: { Element },
-  name: "General Table",
+  name: "With border",
   data() {
     return {
       code: `
-<table class="w-full text-sm text-left bg-white shadow">
-
-  <thead class="text-gray-600 bg-gray-50 dark:text-gray-200 dark:bg-gray-600 dark:bg-gray-400">
-    <tr class="text-left uppercase">
-      <th class="p-4">Order</th>
-      <th class="p-4">Invoice</th>
-      <th class="p-4">Items</th>
-      <th class="p-4">Customer</th>
-      <th class="p-4">Status</th>
-      <th class="p-4">Payment</th>
-      <th class="p-4">Total</th>
-      <th class="p-4">Action</th>
+<!-- Tables Border Colors -->
+<table class="border border-indigo-400">
+  <thead class="border border-indigo-400">
+    <tr class="text-left divide-x divide-indigo-400 dark:text-gray-200">
+      <th class="px-5 py-2">Id</th>
+      <th class="px-5 py-2">Title</th>
+      <th class="px-5 py-2">Status</th>
+      <th class="px-5 py-2">Assignee</th>
+      <th class="px-5 py-2">Price</th>
+      <th></th>
     </tr>
   </thead>
-
-  <tbody class="dark:text-gray-300 dark:bg-gray-500">
-    <tr class="border-b dark:border-gray-600">
-      <td class="p-4">100010070</td>
-      <td class="p-4">INV1991</td>
-      <td class="p-4">Items</td>
-      <td class="p-4">John Doe</td>
-      <td class="p-4">pending</td>
-      <td class="p-4">Stripe</td>
-      <td class="p-4">123.99</td>
-      <td class="p-4">
-        <a href="#" class="px-4 py-2 text-white bg-blue-400 rounded hover:bg-blue-500">view</a>
+  <tbody class="divide-y divide-indigo-400">
+    <tr class="divide-x divide-indigo-400 text-slate-500 dark:text-gray-200">
+      <th class="px-5 py-2">1</th>
+      <td class="px-5 py-2">Implement new UX</td>
+      <td class="px-5 py-2"><span class="px-2 py-1 text-xs font-semibold text-gray-500 bg-gray-200">Backlog</span></td>
+      <td class="px-5 py-2">Lanora Sandoval</td>
+      <td class="px-5 py-2">$4,521</td>
+      <td class="px-5 py-2">
+        <a href="#">
+          <svg class="h-4 fill-slate-500 dark:fill-gray-200" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m22 16.75c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75zm0-5c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75zm0-5c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75z" fill-rule="nonzero" /></svg>
+        </a>
+      </td>
+    </tr>
+    <tr class="divide-x divide-indigo-400 text-slate-500 dark:text-gray-200">
+      <th class="px-5 py-2">2</th>
+      <td class="px-5 py-2">Design syntax</td>
+      <td class="px-5 py-2"><span class="px-2 py-1 text-xs font-semibold text-orange-500 bg-orange-200">In Progress</span></td>
+      <td class="px-5 py-2">Calvin Garrett</td>
+      <td class="px-5 py-2">$7,546</td>
+      <td class="px-5 py-2">
+        <a href="#">
+          <svg class="h-4 fill-slate-500 dark:fill-gray-200" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m22 16.75c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75zm0-5c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75zm0-5c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75z" fill-rule="nonzero" /></svg>
+        </a>
+      </td>
+    </tr>
+    <tr class="divide-x divide-indigo-400 text-slate-500 dark:text-gray-200">
+      <th class="px-5 py-2">3</th>
+      <td class="px-5 py-2">Configurable resources</td>
+      <td class="px-5 py-2"><span class="px-2 py-1 text-xs font-semibold text-green-600 bg-green-300">Done</span></td>
+      <td class="px-5 py-2">Florence Guzman</td>
+      <td class="px-5 py-2">$1,350</td>
+      <td class="px-5 py-2">
+        <a href="#">
+          <svg class="h-4 fill-slate-500 dark:fill-gray-200" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m22 16.75c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75zm0-5c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75zm0-5c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75z" fill-rule="nonzero" /></svg>
+        </a>
+      </td>
+    </tr>
+    <tr class="divide-x divide-indigo-400 text-slate-500 dark:text-gray-200">
+      <th class="px-5 py-2">4</th>
+      <td class="px-5 py-2">Implement extensions</td>
+      <td class="px-5 py-2"><span class="px-2 py-1 text-xs font-semibold text-orange-500 bg-orange-200">In Progress</span></td>
+      <td class="px-5 py-2">Maritza Blanda</td>
+      <td class="px-5 py-2">$4,521</td>
+      <td class="px-5 py-2">
+        <a href="#">
+          <svg class="h-4 fill-slate-500 dark:fill-gray-200" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m22 16.75c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75zm0-5c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75zm0-5c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75z" fill-rule="nonzero" /></svg>
+        </a>
       </td>
     </tr>
   </tbody>
+</table>
 
-  <tbody class="bg-green-100 dark:text-gray-300 dark:bg-gray-500">
-    <tr class="border-b dark:border-gray-700">
-      <td class="p-4">100010070</td>
-      <td class="p-4">INV1991</td>
-      <td class="p-4">Items</td>
-      <td class="p-4">John Doe</td>
-      <td class="p-4">pending</td>
-      <td class="p-4">Stripe</td>
-      <td class="p-4">1339.44</td>
-      <td class="p-4">
-        <a href="#" class="px-4 py-2 text-white bg-blue-400 rounded hover:bg-blue-500">view</a>
-      </td>
-    </tr>
-  </tbody>
-
-  <tbody class="dark:text-gray-300 dark:bg-gray-500">
-    <tr>
-      <td class="p-4">100010070</td>
-      <td class="p-4">INV1991</td>
-      <td class="p-4">Items</td>
-      <td class="p-4">John Doe</td>
-      <td class="p-4">canceled</td>
-      <td class="p-4">PayPal</td>
-      <td class="p-4">23.11</td>
-      <td class="p-4">
-        <a href="#" class="px-4 py-2 text-white bg-blue-400 rounded hover:bg-blue-500">view</a>
-      </td>
-    </tr>
-  </tbody>
-
-</table>`,
-      title: "General Table",
+      `,
+      title: "With border",
     };
   },
 };
 </script>
+
+<style scoped></style>
