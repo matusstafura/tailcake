@@ -10,46 +10,39 @@ export default {
   data() {
     return {
       code: `
-<div class="relative h-64">
-  <div class="absolute left-7 mb-8 flex h-[80%] border-l-2 border-blue-500">
-    <div class="pr-4">
-      <div class="w-10 h-10 -ml-5 bg-blue-500 rounded-full"></div>
-    </div>
-    <div class="mt-1 text-sm leading-4 dark:text-gray-300">
-      <p class="">HEADLINE</p>
-      <p>some text</p>
-    </div>
-  </div>
-  <div class="absolute left-7 top-[25%] mb-8 flex h-[25%] border-l-2 border-gray-300">
-    <div class="pr-4">
-      <div class="w-10 h-10 -ml-5 bg-blue-500 rounded-full"></div>
-    </div>
-    <div class="mt-1 text-sm leading-4 dark:text-gray-300">
-      <p class="">HEADLINE</p>
-      <p>some text</p>
-    </div>
-  </div>
-  <div class="absolute left-7 top-[50%] mb-8 flex h-[25%] border-l-2 border-gray-300">
-    <div class="pr-4">
-      <div class="w-10 h-10 -ml-5 bg-white border border-gray-300 rounded-full"></div>
-    </div>
-    <div class="mt-1 text-sm leading-4 dark:text-gray-300">
-      <p class="">HEADLINE</p>
-      <p>some text</p>
-    </div>
-  </div>
-  <div class="absolute left-7 top-[75%] mb-8 flex border-l-2 border-gray-300">
-    <div class="pr-4">
-      <div class="w-10 h-10 -ml-5 bg-white border border-gray-300 rounded-full">
-        <div class="w-3 h-3 mt-3 ml-3 bg-gray-300 rounded-full"></div>
+<div class="max-w-md">
+  <ol>
+    <li class="flex pb-5 border-l-2 border-gray-200">
+      <div class="w-10 h-10 -ml-5 bg-indigo-200 rounded-full">
+        <div class="mt-2 text-center text-indigo-500">1</div>
       </div>
-    </div>
-    <div class="mt-1 text-sm leading-4 dark:text-gray-300">
-      <p class="">HEADLINE</p>
-      <p>some text</p>
-    </div>
-  </div>
+      <div class="w-full pl-4">
+        <h2 class="mt-2 font-semibold text-indigo-500">PREPARE</h2>
+        <div class="py-4 text-gray-500">Bacon ipsum dolor amet filet mignon jowl sirloin alcatra short loin, drumstick boudin meatloaf rump.</div>
+      </div>
+    </li>
+    <li class="flex pb-5 border-l-2 border-gray-200">
+      <div class="w-10 h-10 -ml-5 bg-indigo-200 rounded-full">
+        <div class="mt-2 text-center text-indigo-500">2</div>
+      </div>
+      <div class="w-full pl-4">
+        <h2 class="mt-2 font-semibold text-indigo-500">CHECK</h2>
+        <div class="py-4 text-gray-500">Cow prosciutto tri-tip, pork chop shoulder pastrami flank.</div>
+      </div>
+    </li>
+    <li class="flex pb-5">
+      <div class="w-10 h-10 -ml-5 bg-indigo-200 rounded-full">
+        <div class="mt-2 text-center text-indigo-500">3</div>
+      </div>
+      <div class="w-full pl-4">
+        <h2 class="mt-2 font-semibold text-indigo-500">COMMIT</h2>
+        <div class="py-4 text-gray-500">Bacon ipsum dolor amet filet mignon jowl sirloin alcatra short loin, drumstick boudin meatloaf rump.</div>
+      </div>
+    </li>
+  </ol>
 </div>
+
+
 `,
       title: "Vertical",
     };

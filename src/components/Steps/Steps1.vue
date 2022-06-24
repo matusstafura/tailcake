@@ -10,15 +10,44 @@ export default {
   data() {
     return {
       code: `
-<div class="relative w-full h-1 max-w-xl mt-5 text-sm text-gray-500 bg-gray-300">
-  <div class="absolute z-10 -mt-4 ml-[0%] h-9 w-9 rounded-full border-4 border-blue-400 bg-white pt-1 text-center">1</div>
-  <div class="absolute z-10 -mt-4 ml-[20%] h-9 w-9 rounded-full border-4 border-blue-400 bg-white pt-1 text-center">2</div>
-  <div class="absolute z-10 -mt-4 ml-[40%] h-9 w-9 rounded-full border-4 border-blue-400 bg-white pt-1 text-center">3</div>
-  <div class="absolute z-10 -mt-4 ml-[60%] h-9 w-9 rounded-full border-4 border-gray-300 bg-white pt-1 text-center">4</div>
-  <div class="absolute z-10 -mt-4 ml-[80%] h-9 w-9 rounded-full border-4 border-gray-300 bg-white pt-1 text-center">5</div>
-  <div class="absolute z-10 -mt-4 ml-[100%] h-9 w-9 rounded-full border-4 border-gray-300 bg-white pt-1 text-center">6</div>
-  <div class="absolute h-1 w-[40%] max-w-xl bg-blue-400"></div>
-</div>
+<ol class="grid grid-cols-1 pt-4 sm:grid-cols-2 lg:grid-cols-4">
+  <li class="border-0 lg:border-t">
+    <div class="items-center">
+      <div class="bg-blue-200 rounded-full -mt-7 h-14 w-14">
+        <div class="pt-3 text-2xl font-semibold text-center text-blue-500">1</div>
+      </div>
+    </div>
+    <h2 class="py-3 text-xl font-semibold dark:text-gray-200">Concept</h2>
+    <p class="pb-12 pr-10 text-gray-500 dark:text-gray-300">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero.</p>
+  </li>
+  <li class="border-0 lg:border-t">
+    <div class="items-center">
+      <div class="bg-blue-200 rounded-full -mt-7 h-14 w-14">
+        <div class="pt-3 text-2xl font-semibold text-center text-blue-500">2</div>
+      </div>
+    </div>
+    <h2 class="py-3 text-xl font-semibold dark:text-gray-200">Plan</h2>
+    <p class="pb-12 pr-10 text-gray-500 dark:text-gray-300">Integer posuere erat, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo.</p>
+  </li>
+  <li class="border-0 lg:border-t">
+    <div class="items-center">
+      <div class="bg-blue-200 rounded-full -mt-7 h-14 w-14">
+        <div class="pt-3 text-2xl font-semibold text-center text-blue-500">3</div>
+      </div>
+    </div>
+    <h2 class="py-3 text-xl font-semibold dark:text-gray-200">Check</h2>
+    <p class="pb-12 pr-10 text-gray-500 dark:text-gray-300">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero.</p>
+  </li>
+  <li>
+    <div class="items-center">
+      <div class="bg-blue-200 rounded-full -mt-7 h-14 w-14">
+        <div class="pt-3 text-2xl font-semibold text-center text-blue-500">4</div>
+      </div>
+    </div>
+    <h2 class="py-3 text-xl font-semibold dark:text-gray-200">Commit</h2>
+    <p class="pb-12 pr-10 text-gray-500 dark:text-gray-300">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero.</p>
+  </li>
+</ol>
 
 `,
       title: "Basic",
