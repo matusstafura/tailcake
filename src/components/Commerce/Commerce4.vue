@@ -10,10 +10,10 @@ export default {
   data() {
     return {
       code: `
-<div class="max-w-6xl">
-  <div class="grid grid-cols-1 gap-x-4 lg:grid-cols-2">
-    <div class="max-w-2xl"><img src="https://tailcake.netlify.app/images/commerce/a2.jpg" alt="" class="rounded-xl" /></div>
-    <div class="max-w-2xl px-4">
+<div class="p-4">
+  <div class="grid grid-cols-1 gap-x-10 md:grid-cols-2">
+    <div><img src="https://tailcake.netlify.app/images/commerce/a2.jpg" alt="" class="rounded-xl" /></div>
+    <div class="px-4">
       <h1 class="pt-3 text-4xl font-semibold tracking-wide text-slate-700 lg:p-0">Retro Camera</h1>
       <p class="py-4 text-xl text-gray-500">$55.00</p>
       <p class="py-4 text-gray-500">Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>

@@ -11,12 +11,12 @@ export default {
     return {
       code: `
 <div class="max-w-lg p-4 mx-auto md:max-w-4xl">
-  <div class="grid grid-cols-1 border border-gray-100 shadow rounded-xl md:grid-cols-3">
+  <div class="grid grid-cols-1 bg-white border border-gray-100 shadow rounded-xl md:grid-cols-3 dark:bg-gray-200">
     <div class="col-span-2 p-8">
       <h3 class="pb-3 text-2xl font-semibold">Lifetime Membership</h3>
       <p class="text-gray-500">Learn from like-minded individuals which are eager to make a living building stuff on the web. Pay once and get lifetime access to the community.</p>
-      <div class="relative py-4 text-gray-500 border-b">
-        <div class="absolute pr-4 mt-1 uppercase bg-white">Features</div>
+      <div class="relative py-4 text-gray-500 border-b dark:border-gray-300">
+        <div class="absolute pr-4 mt-1 uppercase bg-white dark:bg-gray-200">Features</div>
       </div>
 
       <ul class="grid grid-cols-1 py-4 mt-4 text-gray-500 gap-y-4 md:grid-cols-2">
@@ -38,7 +38,7 @@ export default {
         </li>
       </ul>
     </div>
-    <div class="flex flex-col p-8 text-center bg-slate-50">
+    <div class="flex flex-col p-8 text-center rounded-r-lg bg-slate-50 dark:bg-slate-100">
       <div class="m-auto">
         <div class="mb-3 text-6xl font-extrabold">$599</div>
         <p class="flex-grow pb-2 text-sm text-gray-500">No monthly subscription, you only pay once.</p>

@@ -11,7 +11,7 @@ export default {
     return {
       code: `
 <div class="container grid grid-cols-1 py-4 mx-auto gap-x-4 gap-y-12 text-slate-700 dark:text-white md:grid-cols-2 lg:grid-cols-3 xl:max-w-screen-lg">
-  <div class="p-12 border border-gray-100 rounded-lg shadow-md">
+  <div class="p-12 bg-white border border-gray-100 rounded-lg shadow-md dark:bg-gray-500">
     <div class="mb-4 text-2xl font-light"><span class="text-6xl font-bold">$9</span>/mo</div>
     <div class="mb-4 text-2xl font-semibold">Bronze Plan</div>
     <ul>
@@ -39,7 +39,7 @@ export default {
 
     <button class="w-full px-6 py-3 mt-8 text-white uppercase bg-indigo-400 rounded shadow-lg hover:bg-indigo-500 dark:bg-white dark:text-black">Choose Plan</button>
   </div>
-  <div class="relative p-12 -my-4 border border-indigo-400 rounded-lg shadow-md">
+  <div class="relative p-12 -my-4 bg-white border border-indigo-400 rounded-lg shadow-md dark:bg-gray-500">
     <span class="absolute left-0 right-0 w-1/2 px-4 py-1 mx-auto text-sm text-center text-white bg-indigo-400 -top-4 rounded-xl">MOST POPULAR</span>
     <div class="mb-4 text-2xl font-light"><span class="text-6xl font-bold">$19</span>/mo</div>
     <div class="mb-4 text-2xl font-semibold">Silver Plan</div>
@@ -68,7 +68,7 @@ export default {
 
     <button class="w-full px-6 py-3 mt-8 text-white uppercase bg-indigo-400 rounded shadow-lg hover:bg-indigo-500 dark:bg-white dark:text-black">Choose Plan</button>
   </div>
-  <div class="p-12 border border-gray-100 rounded-lg shadow-md">
+  <div class="p-12 bg-white border border-gray-100 rounded-lg shadow-md dark:bg-gray-500">
     <div class="mb-4 text-2xl font-light"><span class="text-6xl font-bold">$49</span>/mo</div>
     <div class="mb-4 text-2xl font-semibold">Diamond Plan</div>
     <ul>
