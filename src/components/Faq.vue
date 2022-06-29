@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: "Content",
+  name: "FAQ",
   props: ["mode"],
   data() {
     return {
@@ -20,7 +20,7 @@ export default {
   },
   methods: {
     allComp() {
-      const req = require.context("./Content", true, /\.(js|vue)$/i);
+      const req = require.context("./Faq", true, /\.(js|vue)$/i);
       req.keys().map((key) => {
         const name = key.match(/\w+/)[0];
         this.components.push(name);

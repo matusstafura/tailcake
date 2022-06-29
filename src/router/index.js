@@ -6,7 +6,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import Button from "@/components/Button.vue";
 import Cards from "@/components/Cards.vue";
 import Commerce from "@/components/Commerce.vue";
-import Content from "@/components/Content";
+import Faq from "@/components/Faq.vue";
 import Cta from "@/components/Cta";
 import Footer from "@/components/Footer";
 import Forms from "@/components/Forms";
@@ -52,9 +52,9 @@ const routes = [
     component: Commerce,
   },
   {
-    path: "/content",
-    name: "content",
-    component: Content,
+    path: "/faq",
+    name: "faq",
+    component: Faq,
   },
   {
     path: "/cta",

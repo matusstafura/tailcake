@@ -16,9 +16,7 @@
     <router-link to="commerce" class="block mb-4 hover:underline"
       >Commerce</router-link
     >
-    <router-link to="content" class="block mb-4 hover:underline"
-      >Content</router-link
-    >
+    <router-link to="faq" class="block mb-4 hover:underline">FAQ</router-link>
     <router-link to="cta" class="block mb-4 hover:underline">CTA</router-link>
     <router-link to="footer" class="block mb-4 hover:underline"
       >Footers</router-link

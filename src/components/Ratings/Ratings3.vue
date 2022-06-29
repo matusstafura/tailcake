@@ -21,55 +21,45 @@ export default {
   </div>
   <p class="py-3 text-slate-500 dark:text-gray-200">321 reviews</p>
   <ul>
-    <li class="flex mb-2">
+    <li class="flex items-center py-1">
       <span class="dark:text-gray-200">5 star</span>
-      <div class="relative w-64 mx-4">
+      <div class="relative mx-4 h-5 w-64">
         <div class="absolute z-10 h-5 w-[100%] rounded border border-gray-200 bg-gray-100"></div>
         <div class="absolute z-20 h-5 w-[84%] rounded-l border border-yellow-500 bg-[#ffa41d]"></div>
       </div>
-      <span class="-mt-1">
-        <a href="/reviews" class="text-blue-600 hover:underline dark:text-blue-300">84%</a>
-      </span>
+      <a href="/reviews" class="text-blue-600 hover:underline dark:text-blue-300">84%</a>
     </li>
-    <li class="flex mb-2">
+    <li class="flex items-center py-1">
       <span class="dark:text-gray-200">4 star</span>
-      <div class="relative w-64 mx-4">
+      <div class="relative mx-4 h-5 w-64">
         <div class="absolute z-10 h-5 w-[100%] rounded border border-gray-200 bg-gray-100"></div>
         <div class="absolute z-20 h-5 w-[69%] rounded-l border border-yellow-500 bg-[#ffa41d]"></div>
       </div>
-      <span class="-mt-1">
-        <a href="/reviews" class="text-blue-600 hover:underline dark:text-blue-300">69%</a>
-      </span>
+      <a href="/reviews" class="text-blue-600 hover:underline dark:text-blue-300">69%</a>
     </li>
-    <li class="flex mb-2">
+    <li class="flex items-center py-1">
       <span class="dark:text-gray-200">3 star</span>
-      <div class="relative w-64 mx-4">
+      <div class="relative mx-4 h-5 w-64">
         <div class="absolute z-10 h-5 w-[100%] rounded border border-gray-200 bg-gray-100"></div>
         <div class="absolute z-20 h-5 w-[51%] rounded-l border border-yellow-500 bg-[#ffa41d]"></div>
       </div>
-      <span class="-mt-1">
-        <a href="/reviews" class="text-blue-600 hover:underline dark:text-blue-300">51%</a>
-      </span>
+      <a href="/reviews" class="text-blue-600 hover:underline dark:text-blue-300">51%</a>
     </li>
-    <li class="flex mb-2">
+    <li class="flex items-center py-1">
       <span class="dark:text-gray-200">2 star</span>
-      <div class="relative w-64 mx-4">
+      <div class="relative mx-4 h-5 w-64">
         <div class="absolute z-10 h-5 w-[100%] rounded border border-gray-200 bg-gray-100"></div>
         <div class="absolute z-20 h-5 w-[36%] rounded-l border border-yellow-500 bg-[#ffa41d]"></div>
       </div>
-      <span class="-mt-1">
-        <a href="/reviews" class="text-blue-600 hover:underline dark:text-blue-300">36%</a>
-      </span>
+      <a href="/reviews" class="text-blue-600 hover:underline dark:text-blue-300">36%</a>
     </li>
-    <li class="flex mb-2">
+    <li class="flex items-center py-1">
       <span class="dark:text-gray-200">1 star</span>
-      <div class="relative w-64 mx-4">
+      <div class="relative mx-4 h-5 w-64">
         <div class="absolute z-10 h-5 w-[100%] rounded border border-gray-200 bg-gray-100"></div>
         <div class="absolute z-20 h-5 w-[11%] rounded-l border border-yellow-500 bg-[#ffa41d]"></div>
       </div>
-      <span class="-mt-1">
-        <a href="/reviews" class="text-blue-600 hover:underline dark:text-blue-300">11%</a>
-      </span>
+      <a href="/reviews" class="text-blue-600 hover:underline dark:text-blue-300">11%</a>
     </li>
   </ul>
 </div>
