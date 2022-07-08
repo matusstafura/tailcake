@@ -1,8 +1,11 @@
 <template>
   <div class="flex py-4">
-    <Sidebar></Sidebar>
-    <div id="content" class="w-full px-8 pl-64">
-      <Menu></Menu>
+    <Sidebar :visible="isVisible"></Sidebar>
+    <div
+      id="content"
+      :class="[isVisible ? 'w-full px-8 lg:pl-64' : 'w-full px-8']"
+    >
+      <Menu @toggle="visible"></Menu>
       <router-view></router-view>
     </div>
   </div>
@@ -19,12 +22,12 @@ export default {
   },
   data() {
     return {
-      sidebar: true,
+      isVisible: true,
     };
   },
   methods: {
-    toggleMenu() {
-      this.sidebar = !this.sidebar;
+    visible(e) {
+      this.isVisible = e;
     },
   },
 };

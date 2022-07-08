@@ -1,5 +1,12 @@
 <template>
-  <div id="sidebar" class="fixed w-64 h-screen max-h-screen px-8">
+  <div
+    id="sidebar"
+    :class="[
+      visible
+        ? 'w-64 h-screen max-h-screen px-8 hidden fixed lg:block'
+        : 'hidden p-4',
+    ]"
+  >
     <router-link to="alerts" class="block mb-4 hover:underline"
       >Alerts</router-link
     >
@@ -50,3 +57,9 @@
     >
   </div>
 </template>
+
+<script>
+export default {
+  props: ["visible"],
+};
+</script>
