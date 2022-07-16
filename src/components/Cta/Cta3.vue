@@ -29,7 +29,7 @@ export default {
     <div class="relative rounded-md">
       <div class="">
         <input type="text" id="url" class="w-1/2 p-4 mx-auto placeholder-gray-400 bg-white rounded-l shadow text-slate-700" placeholder="Enter URL" />
-        <button class="px-12 py-4 -ml-1 font-semibold text-white bg-blue-400 border rounded-r">Submit</button>
+        <button class="px-12 py-4 -ml-1 font-semibold text-white bg-blue-600 border rounded-r hover:bg-blue-500">Submit</button>
       </div>
     </div>
   </div>
