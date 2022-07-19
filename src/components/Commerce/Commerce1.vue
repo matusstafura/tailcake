@@ -19,7 +19,7 @@ export default {
       <h3 class="font-light text-slate-400">Bronski</h3>
       <p class="text-slate-700 dark:text-slate-300">Magic Pen</p>
       <p class="font-semibold">$320.00</p>
-      <button class="px-6 py-2 mt-4 text-white uppercase bg-blue-400 rounded shadow-lg hover:bg-blue-500 dark:bg-gray-500 dark:text-gray-300 dark:hover:bg-gray-400 dark:hover:text-gray-100">Add to cart</button>
+      <button class="px-6 py-3 mt-4 text-white uppercase bg-blue-600 rounded shadow-lg hover:bg-blue-500 dark:bg-gray-500 dark:text-gray-300 dark:hover:bg-gray-400 dark:hover:text-gray-100">Add to cart</button>
     </div>
   </div>
 
@@ -31,7 +31,7 @@ export default {
       <h3 class="font-light text-slate-400">Amazon</h3>
       <p class="text-slate-700 dark:text-slate-300">Echo Devica Alexa</p>
       <p class="font-semibold">$320.00</p>
-      <button class="px-6 py-2 mt-4 text-white uppercase bg-blue-400 rounded shadow-lg hover:bg-blue-500 dark:bg-gray-500 dark:text-gray-300 dark:hover:bg-gray-400 dark:hover:text-gray-100">Add to cart</button>
+      <button class="px-6 py-3 mt-4 text-white uppercase bg-blue-600 rounded shadow-lg hover:bg-blue-500 dark:bg-gray-500 dark:text-gray-300 dark:hover:bg-gray-400 dark:hover:text-gray-100">Add to cart</button>
     </div>
   </div>
   <div class="max-w-md">
@@ -42,7 +42,7 @@ export default {
       <h3 class="font-light text-slate-400">Microsoft</h3>
       <p class="text-slate-700 dark:text-slate-300">XBOX Controller</p>
       <p class="font-semibold">$320.00</p>
-      <button class="px-6 py-2 mt-4 text-white uppercase bg-blue-400 rounded shadow-lg hover:bg-blue-500 dark:bg-gray-500 dark:text-gray-300 dark:hover:bg-gray-400 dark:hover:text-gray-100">Add to cart</button>
+      <button class="px-6 py-3 mt-4 text-white uppercase bg-blue-600 rounded shadow-lg hover:bg-blue-500 dark:bg-gray-500 dark:text-gray-300 dark:hover:bg-gray-400 dark:hover:text-gray-100">Add to cart</button>
     </div>
   </div>
   <div class="max-w-md">
@@ -53,7 +53,7 @@ export default {
       <h3 class="font-light text-slate-400">Nikon</h3>
       <p class="text-slate-700 dark:text-slate-300">Camera D750</p>
       <p class="font-semibold">$320.00</p>
-      <button class="px-6 py-2 mt-4 text-white uppercase bg-blue-400 rounded shadow-lg hover:bg-blue-500 dark:bg-gray-500 dark:text-gray-300 dark:hover:bg-gray-400 dark:hover:text-gray-100">Add to cart</button>
+      <button class="px-6 py-3 mt-4 text-white uppercase bg-blue-600 rounded shadow-lg hover:bg-blue-500 dark:bg-gray-500 dark:text-gray-300 dark:hover:bg-gray-400 dark:hover:text-gray-100">Add to cart</button>
     </div>
   </div>
 </div>
