@@ -15,7 +15,7 @@ export default {
     <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" target="_blank" />
   </a>
 
-  <a href="https://www.patreon.com/bePatron?u=matusstafura" class="flex w-48 items-center rounded-full bg-[#ff424d] py-1 px-4 hover:shadow-lg">
+  <a href="https://www.patreon.com/bePatron?u=71479214" class="flex w-48 items-center rounded-full bg-[#ff424d] py-1 px-4 hover:shadow-lg">
     <svg class="h-4 ml-1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M14.82 2.398c-3.97 0-7.2 3.234-7.2 7.208 0 3.963 3.23 7.187 7.2 7.187 3.959 0 7.18-3.224 7.18-7.187 0-3.974-3.221-7.208-7.18-7.208zM2 21.598h3.516v-19.2H2v19.2z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
     <span class="ml-1 text-white">Become a Patron</span>
   </a>

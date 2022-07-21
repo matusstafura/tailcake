@@ -29,7 +29,7 @@ export default {
         </ul>
       </div>
       <div class="p-8 text-center">
-        <button class="px-6 py-3 font-semibold text-white bg-blue-400 rounded shadow-lg hover:bg-blue-500 dark:bg-blue-300 dark:text-white">Select plan</button>
+        <button class="px-6 py-3 font-semibold text-white bg-blue-600 rounded shadow-lg hover:bg-blue-500 dark:bg-blue-300 dark:text-white">Select plan</button>
       </div>
     </div>
 
@@ -37,7 +37,7 @@ export default {
       <div class="p-8">
         <div class="flex items-center justify-between pb-8 mb-4 border-b">
           <div><h5 class="text-2xl font-semibold">Silver</h5></div>
-          <div class="px-4 py-2 text-sm font-semibold text-white bg-blue-500 rounded-2xl">popular</div>
+          <div class="px-4 py-2 text-sm font-semibold bg-blue-400 rounded-2xl text-blue-50">popular</div>
         </div>
         <div class="text-5xl font-bold"><span class="text-4xl font-medium">$</span>8.99<sub class="bottom-[0.1rem] text-xl font-medium text-gray-500 dark:text-gray-200"> / month</sub></div>
         <hr class="my-5" />
@@ -49,7 +49,7 @@ export default {
         </ul>
       </div>
       <div class="p-8 text-center">
-        <button class="px-6 py-3 font-semibold text-white bg-blue-400 rounded shadow-lg hover:bg-blue-500 dark:bg-blue-300 dark:text-white">Select plan</button>
+        <button class="px-6 py-3 font-semibold text-white bg-blue-600 rounded shadow-lg hover:bg-blue-500 dark:bg-blue-300 dark:text-white">Select plan</button>
       </div>
     </div>
 
@@ -69,7 +69,7 @@ export default {
         </ul>
       </div>
       <div class="p-8 text-center">
-        <button class="px-6 py-3 font-semibold text-white bg-blue-400 rounded shadow-lg hover:bg-blue-500 dark:bg-blue-300 dark:text-white">Select plan</button>
+        <button class="px-6 py-3 font-semibold text-white bg-blue-600 rounded shadow-lg hover:bg-blue-500 dark:bg-blue-300 dark:text-white">Select plan</button>
       </div>
     </div>
   </div>

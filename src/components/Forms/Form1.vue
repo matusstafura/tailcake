@@ -26,7 +26,7 @@ export default {
     </div>
 
     <div>
-      <button class="right-0 flex px-4 py-2 text-white bg-blue-400 rounded shadow-md hover:bg-blue-500 dark:hover:bg-blue-500 dark:hover:text-gray-100">Save</button>
+      <button class="right-0 flex px-4 py-2 text-white bg-blue-600 rounded shadow-md hover:bg-blue-500 dark:hover:bg-blue-500 dark:hover:text-gray-100">Save</button>
     </div>
   </div>
 </form>

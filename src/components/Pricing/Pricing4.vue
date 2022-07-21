@@ -10,20 +10,19 @@ export default {
   data() {
     return {
       code: `
-
-<div class="p-8 mx-auto border dark:bg-gray-500 max-w-7xl rounded-xl">
+<div class="p-8 mx-auto border max-w-7xl rounded-xl dark:bg-gray-500">
   <div class="flex items-center justify-between py-8 border-b">
     <div>
       <h3 class="pb-4 text-4xl font-extrabold dark:text-white">Just try it out! You’ll fall in love</h3>
       <p class="pb-4 text-xl font-light text-gray-500 dark:text-gray-200">Designed for modern companies looking to launch a simple, premium and modern website and apps.</p>
     </div>
     <div>
-      <button class="px-6 py-3 text-white uppercase bg-indigo-500 rounded shadow-lg hover:bg-indigo-500 dark:bg-indigo-200 dark:text-indigo-500 dark:hover:bg-gray-400 dark:hover:text-gray-100">Start now</button>
+      <button class="px-6 py-3 text-white uppercase bg-blue-500 rounded shadow-lg hover:bg-blue-500 dark:bg-blue-200 dark:text-blue-500 dark:hover:bg-gray-400 dark:hover:text-gray-100">Start now</button>
     </div>
   </div>
   <div class="grid grid-cols-3 py-8 gap-x-8">
     <div>
-      <div class="pb-3 font-semibold text-indigo-500 uppercase dark:text-indigo-200">Because we care</div>
+      <div class="pb-3 font-semibold text-blue-500 uppercase dark:text-blue-200">Because we care</div>
       <div class="pb-3 text-3xl font-bold dark:text-white">Get early access</div>
       <p class="pb-3 text-lg text-gray-500 dark:text-gray-200">Geeks is currently invite only. Sign up to the waitlist to be the first to try out Geeks and stay in the loop.</p>
     </div>
@@ -69,8 +68,6 @@ export default {
     </div>
   </div>
 </div>
-
-
 
 `,
       title: "Pricing Block",

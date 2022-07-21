@@ -11,8 +11,7 @@ export default {
     return {
       code: `
 <table class="w-full text-sm text-left bg-white shadow">
-
-  <thead class="text-gray-600 bg-gray-50 dark:text-gray-200 dark:bg-gray-600 dark:bg-gray-400">
+  <thead class="text-gray-600 bg-gray-50 dark:bg-gray-600 dark:bg-gray-400 dark:text-gray-200">
     <tr class="text-left uppercase">
       <th class="p-4">Order</th>
       <th class="p-4">Invoice</th>
@@ -25,7 +24,7 @@ export default {
     </tr>
   </thead>
 
-  <tbody class="dark:text-gray-300 dark:bg-gray-500">
+  <tbody class="dark:bg-gray-500 dark:text-gray-300">
     <tr class="border-b dark:border-gray-600">
       <td class="p-4">100010070</td>
       <td class="p-4">INV1991</td>
@@ -35,12 +34,12 @@ export default {
       <td class="p-4">Stripe</td>
       <td class="p-4">123.99</td>
       <td class="p-4">
-        <a href="#" class="px-4 py-2 text-white bg-blue-400 rounded hover:bg-blue-500">view</a>
+        <a href="#" class="px-4 py-2 text-white bg-blue-600 rounded hover:bg-blue-500">view</a>
       </td>
     </tr>
   </tbody>
 
-  <tbody class="bg-green-100 dark:text-gray-300 dark:bg-gray-500">
+  <tbody class="bg-blue-100 dark:bg-gray-500 dark:text-gray-300">
     <tr class="border-b dark:border-gray-700">
       <td class="p-4">100010070</td>
       <td class="p-4">INV1991</td>
@@ -50,12 +49,12 @@ export default {
       <td class="p-4">Stripe</td>
       <td class="p-4">1339.44</td>
       <td class="p-4">
-        <a href="#" class="px-4 py-2 text-white bg-blue-400 rounded hover:bg-blue-500">view</a>
+        <a href="#" class="px-4 py-2 text-white bg-blue-600 rounded hover:bg-blue-500">view</a>
       </td>
     </tr>
   </tbody>
 
-  <tbody class="dark:text-gray-300 dark:bg-gray-500">
+  <tbody class="dark:bg-gray-500 dark:text-gray-300">
     <tr>
       <td class="p-4">100010070</td>
       <td class="p-4">INV1991</td>
@@ -65,12 +64,13 @@ export default {
       <td class="p-4">PayPal</td>
       <td class="p-4">23.11</td>
       <td class="p-4">
-        <a href="#" class="px-4 py-2 text-white bg-blue-400 rounded hover:bg-blue-500">view</a>
+        <a href="#" class="px-4 py-2 text-white bg-blue-600 rounded hover:bg-blue-500">view</a>
       </td>
     </tr>
   </tbody>
+</table>
 
-</table>`,
+`,
       title: "General Table",
     };
   },

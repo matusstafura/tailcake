@@ -20,7 +20,7 @@ export default {
     <div>
       <div class="flex justify-between">
         <label for="password" class="mb-2 text-sm font-semibold dark:text-gray-100">Password</label>
-        <a href="/forgot-password" class="text-sm text-blue-500">Forgot your password?</a>
+        <a href="/forgot-password" class="text-sm text-blue-600">Forgot your password?</a>
       </div>
       <input type="password" placeholder="password" class="w-full p-2 border border-gray-200 rounded-lg bg-slate-50 dark:bg-gray-300" />
     </div>
@@ -28,7 +28,7 @@ export default {
       <input checked id="remember-me" type="checkbox" value="" class="w-4 h-4 text-blue-500 bg-gray-100 border-gray-300 rounded" />
       <label for="remember-me" class="ml-2 text-sm dark:text-gray-100">Stay signed for a week</label>
     </div>
-    <button class="px-4 py-2 text-white bg-blue-400 rounded shadow-md hover:bg-blue-500 dark:hover:bg-blue-500 dark:hover:text-gray-100">Sign up</button>
+    <button class="px-4 py-2 text-white bg-blue-600 rounded shadow-md hover:bg-blue-500 dark:hover:bg-blue-500 dark:hover:text-gray-100">Sign up</button>
   </div>
 </form>
 
