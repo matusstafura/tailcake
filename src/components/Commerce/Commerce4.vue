@@ -12,7 +12,7 @@ export default {
       code: `
 <div class="p-4">
   <div class="grid grid-cols-1 gap-x-10 md:grid-cols-2">
-    <div><img src="https://tailcake.netlify.app/images/commerce/a2.jpg" alt="" class="rounded-xl" /></div>
+    <div><img src="/images/commerce/a2.jpg" alt="" class="rounded-xl" /></div>
     <div class="px-4">
       <h1 class="pt-3 text-4xl font-semibold tracking-wide text-slate-700 lg:p-0">Retro Camera</h1>
       <p class="py-4 text-xl text-gray-500">$55.00</p>

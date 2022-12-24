@@ -14,7 +14,7 @@ export default {
   <div class="flex items-end w-full px-8 py-4 bg-slate-50 dark:bg-slate-900">
     <div class="flex">
       <a href="/" class="flex"
-        ><div class="mr-4"><img src="https://tailcake.netlify.app/tailcake-logo.png" class="h-6" /></div>
+        ><div class="mr-4"><img src="/tailcake-logo.png" class="h-6" /></div>
         <div class="m-auto text-xl font-semibold dark:text-slate-100">TailCake</div></a
       >
     </div>

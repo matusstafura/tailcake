@@ -13,7 +13,7 @@ export default {
 <div class="grid grid-cols-1 gap-x-8 gap-y-8 dark:text-white md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
   <div>
     <div class="rounded-xl hover:shadow-lg">
-      <img src="https://tailcake.netlify.app/images/commerce/a1.jpg" alt="product-image" class="rounded-xl" />
+      <img src="/images/commerce/a1.jpg" alt="product-image" class="rounded-xl" />
     </div>
     <div class="flex items-center justify-between mt-3">
       <div class="text-sm text-gray-500 uppercase">shoes</div>
@@ -33,7 +33,7 @@ export default {
 
   <div>
     <div class="rounded-xl hover:shadow-lg">
-      <img src="https://tailcake.netlify.app/images/commerce/a2.jpg" alt="product-image" class="rounded-xl" />
+      <img src="/images/commerce/a2.jpg" alt="product-image" class="rounded-xl" />
     </div>
     <div class="flex items-center justify-between mt-3">
       <div class="text-sm text-gray-500 uppercase">shoes</div>
@@ -53,7 +53,7 @@ export default {
 
   <div>
     <div class="rounded-xl hover:shadow-lg">
-      <img src="https://tailcake.netlify.app/images/commerce/a3.jpg" alt="product-image" class="rounded-xl" />
+      <img src="/images/commerce/a3.jpg" alt="product-image" class="rounded-xl" />
     </div>
     <div class="flex items-center justify-between mt-3">
       <div class="text-sm text-gray-500 uppercase">shoes</div>
@@ -73,7 +73,7 @@ export default {
 
   <div>
     <div class="rounded-xl hover:shadow-lg">
-      <img src="https://tailcake.netlify.app/images/commerce/a4.jpg" alt="product-image" class="rounded-xl" />
+      <img src="/images/commerce/a4.jpg" alt="product-image" class="rounded-xl" />
     </div>
     <div class="flex items-center justify-between mt-3">
       <div class="text-sm text-gray-500 uppercase">shoes</div>

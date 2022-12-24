@@ -12,7 +12,7 @@ export default {
       code: `
 <div class="grid grid-cols-1 p-4 gap-x-8 gap-y-8 dark:text-white md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
   <div>
-    <a href="#"><img src="https://tailcake.netlify.app/images/commerce/3.jpg" class="hover:shadow-xl" /></a>
+    <a href="#"><img src="/images/commerce/3.jpg" class="hover:shadow-xl" /></a>
     <div class="mt-4 text-center">
       <a href="#" class="text-lg text-slate-500 hover:text-blue-500">Shirt</a>
 
@@ -27,7 +27,7 @@ export default {
     </div>
   </div>
   <div>
-    <a href="#"><img src="https://tailcake.netlify.app/images/commerce/4.jpg" class="hover:shadow-xl" /></a>
+    <a href="#"><img src="/images/commerce/4.jpg" class="hover:shadow-xl" /></a>
     <div class="mt-4 text-center">
       <a href="#" class="text-xl text-slate-500 hover:text-blue-500">Shirt</a>
 
@@ -42,7 +42,7 @@ export default {
     </div>
   </div>
   <div>
-    <a href="#"><img src="https://tailcake.netlify.app/images/commerce/5.jpg" class="hover:shadow-xl" /></a>
+    <a href="#"><img src="/images/commerce/5.jpg" class="hover:shadow-xl" /></a>
     <div class="mt-4 text-center">
       <a href="#" class="text-xl text-slate-500 hover:text-blue-500">Shirt</a>
 
@@ -57,7 +57,7 @@ export default {
     </div>
   </div>
   <div>
-    <a href="#"><img src="https://tailcake.netlify.app/images/commerce/6.jpg" class="hover:shadow-xl" /></a>
+    <a href="#"><img src="/images/commerce/6.jpg" class="hover:shadow-xl" /></a>
     <div class="mt-4 text-center">
       <a href="#" class="text-xl text-slate-500 hover:text-blue-500">Shirt</a>
 

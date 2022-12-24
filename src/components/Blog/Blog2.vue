@@ -19,7 +19,7 @@ export default {
       <h1 class="pb-4 text-xl font-semibold tracking-wide dark:text-blue-400">How to Make a Website From Scratch: A Beginner’s Guide</h1>
       <div class="pb-4 font-light text-gray-500 dark:text-gray-100">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue.</div>
       <div class="flex text-sm">
-        <img src="https://tailcake.netlify.app/images/avatars/1.jpg" class="h-10 mr-4 rounded-full" />
+        <img src="/images/avatars/1.jpg" class="h-10 mr-4 rounded-full" />
         <div>
           <span class="flex font-semibold text-black dark:text-gray-100">Jane Smith</span>
           <span class="text-gray-400">June 22, 2022 - 1 min</span>
@@ -36,7 +36,7 @@ export default {
       <h1 class="pb-4 text-xl font-semibold tracking-wide dark:text-blue-400">10 Best Freelance Websites to Find Work in 2022</h1>
       <div class="pb-4 font-light text-gray-500 dark:text-gray-100">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</div>
       <div class="flex text-sm">
-        <img src="https://tailcake.netlify.app/images/avatars/2.jpg" class="h-10 mr-4 rounded-full" />
+        <img src="/images/avatars/2.jpg" class="h-10 mr-4 rounded-full" />
         <div>
           <span class="flex font-semibold text-black dark:text-gray-100">Jane Smith</span>
           <span class="text-gray-400">June 22, 2022 - 1 min</span>
@@ -53,7 +53,7 @@ export default {
       <h1 class="pb-4 text-xl font-semibold tracking-wide dark:text-blue-400">What Is a WordPress Plugin: A Comprehensive Guide for Beginners</h1>
       <div class="pb-4 font-light text-gray-500 dark:text-gray-100">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. Cras mattis consectetur purus sit amet fermentum.</div>
       <div class="flex text-sm">
-        <img src="https://tailcake.netlify.app/images/avatars/3.jpg" class="h-10 mr-4 rounded-full" />
+        <img src="/images/avatars/3.jpg" class="h-10 mr-4 rounded-full" />
         <div>
           <span class="flex font-semibold text-black dark:text-gray-100">Jane Smith</span>
           <span class="text-gray-400">June 22, 2022 - 1 min</span>

@@ -13,7 +13,7 @@ export default {
 <div class="p-4">
   <div class="grid grid-cols-1 gap-y-8 gap-x-8 md:grid-cols-2 xl:grid-cols-3">
     <div class="border rounded-xl">
-      <a href="#"><img src="https://tailcake.netlify.app//images/blog/4.jpg" class="object-fill rounded-t-xl" alt="" /></a>
+      <a href="#"><img src="/images/blog/4.jpg" class="object-fill rounded-t-xl" alt="" /></a>
       <div class="p-6">
         <div class="font-semibold text-blue-500 uppercase text-xm">Category</div>
         <h3 class="py-3 text-2xl hover:text-blue-500 dark:text-gray-200">
@@ -36,7 +36,7 @@ export default {
     </div>
 
     <div class="border rounded-xl">
-      <a href="#"><img src="https://tailcake.netlify.app//images/blog/5.jpg" class="rounded-t-xl" alt="" /></a>
+      <a href="#"><img src="/images/blog/5.jpg" class="rounded-t-xl" alt="" /></a>
       <div class="p-6">
         <div class="font-semibold text-blue-500 uppercase text-xm">Category</div>
         <h3 class="py-3 text-2xl hover:text-blue-500 dark:text-gray-200">
@@ -59,7 +59,7 @@ export default {
     </div>
 
     <div class="border rounded-xl">
-      <a href="#"><img src="https://tailcake.netlify.app//images/blog/6.jpg" class="rounded-t-xl" alt="" /></a>
+      <a href="#"><img src="/images/blog/6.jpg" class="rounded-t-xl" alt="" /></a>
       <div class="p-6">
         <div class="font-semibold text-blue-500 uppercase text-xm">Category</div>
         <h3 class="py-3 text-2xl hover:text-blue-500 dark:text-gray-200">

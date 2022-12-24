@@ -13,7 +13,7 @@ export default {
 <section class="max-w-4xl bg-white rounded-lg drop-shadow-md dark:text-gray-400">
   <div class="grid grid-cols-1 dark:bg-gray-500 sm:grid-cols-2">
     <div class="relative h-64 pb-2/3">
-      <img src="https://tailcake.netlify.app/images/blog/3.jpg" alt="thumbnail" class="absolute bottom-0 object-cover w-full h-full rounded-l-lg" />
+      <img src="/images/blog/3.jpg" alt="thumbnail" class="absolute bottom-0 object-cover w-full h-full rounded-l-lg" />
     </div>
     <div class="p-6">
       <span class="px-3 py-1 mt-3 text-sm text-gray-400 bg-gray-100 rounded">Ads</span>

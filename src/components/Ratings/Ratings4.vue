@@ -13,7 +13,7 @@ export default {
 <div class="max-w-lg">
   <div class="flex items-center">
     <div class="mr-5">
-      <img src="https://tailcake.netlify.app/images/avatars/1.jpg" alt="" class="w-12 h-12 rounded-full" />
+      <img src="/images/avatars/1.jpg" alt="" class="w-12 h-12 rounded-full" />
     </div>
     <div class="dark:text-gray-300">
       <p>Hanna Berg</p>
@@ -34,7 +34,7 @@ export default {
 
   <div class="flex items-center">
     <div class="mr-5">
-      <img src="https://tailcake.netlify.app/images/avatars/1.jpg" alt="" class="w-12 h-12 rounded-full" />
+      <img src="/images/avatars/1.jpg" alt="" class="w-12 h-12 rounded-full" />
     </div>
     <div class="dark:text-gray-300">
       <p>Hanna Berg</p>

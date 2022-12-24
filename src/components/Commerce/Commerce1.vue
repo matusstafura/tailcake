@@ -13,7 +13,7 @@ export default {
 <div class="grid grid-cols-1 gap-x-8 gap-y-8 dark:text-white md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
   <div class="max-w-md">
     <div class="mb-4 shadow-lg">
-      <img src="https://tailcake.netlify.app/images/commerce/c1.jpg" />
+      <img src="/images/commerce/c1.jpg" />
     </div>
     <div class="leading-6 text-center">
       <h3 class="font-light text-slate-400">Bronski</h3>
@@ -25,7 +25,7 @@ export default {
 
   <div class="max-w-md">
     <div class="mb-4 shadow-lg">
-      <img src="https://tailcake.netlify.app/images/commerce/c2.jpg" />
+      <img src="/images/commerce/c2.jpg" />
     </div>
     <div class="leading-6 text-center">
       <h3 class="font-light text-slate-400">Amazon</h3>
@@ -36,7 +36,7 @@ export default {
   </div>
   <div class="max-w-md">
     <div class="mb-4 shadow-lg">
-      <img src="https://tailcake.netlify.app/images/commerce/c3.jpg" />
+      <img src="/images/commerce/c3.jpg" />
     </div>
     <div class="leading-6 text-center">
       <h3 class="font-light text-slate-400">Microsoft</h3>
@@ -47,7 +47,7 @@ export default {
   </div>
   <div class="max-w-md">
     <div class="mb-4 shadow-lg">
-      <img src="https://tailcake.netlify.app/images/commerce/c4.jpg" />
+      <img src="/images/commerce/c4.jpg" />
     </div>
     <div class="leading-6 text-center">
       <h3 class="font-light text-slate-400">Nikon</h3>

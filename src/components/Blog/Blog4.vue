@@ -13,7 +13,7 @@ export default {
 <section>
   <div class="grid grid-cols-1 py-4 mx-auto max-w-8xl gap-x-16 gap-y-8 dark:text-white xl:grid-cols-2">
     <div class="w-1/2 mx-auto xl:w-full">
-      <img class="border-8 border-white rounded-lg shadow-lg" src="https://tailcake.netlify.app/images/content/1.jpg" alt="blog-image" />
+      <img class="border-8 border-white rounded-lg shadow-lg" src="/images/content/1.jpg" alt="blog-image" />
     </div>
 
     <div class="w-1/2 m-auto xl:w-full">
@@ -27,7 +27,7 @@ export default {
 
   <div class="grid grid-cols-1 py-4 mx-auto max-w-8xl gap-x-16 gap-y-8 dark:text-white xl:grid-cols-2">
     <div class="w-1/2 mx-auto xl:w-full">
-      <img class="border-8 border-white rounded-lg shadow-lg" src="https://tailcake.netlify.app/images/content/2.jpg" alt="blog-image" />
+      <img class="border-8 border-white rounded-lg shadow-lg" src="/images/content/2.jpg" alt="blog-image" />
     </div>
 
     <div class="w-1/2 m-auto xl:w-full">
