@@ -1,5 +1,5 @@
 <template>
-  <a href="/" class="flex">
+  <a href="https://tailcake.dev/" class="flex">
     <div class="mx-4">
       <img src="tailcake-logo.png" class="w-8 h-8" alt="tailcake" />
     </div>

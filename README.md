@@ -7,7 +7,7 @@ Yet another package with reusable components created with Tailwind CSS under MIT
 Note: This is not a package you can import.
 
 Copy and paste components from:
-[https://tailcake.netlify.app/](https://tailcake.netlify.app/)
+[https://tailcake.dev/](https://tailcake.dev/)
 
 ## Support
 
