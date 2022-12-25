@@ -18,7 +18,7 @@ export default {
         <a href="#" class="hover:text-blue-600 dark:text-blue-400">
           <img src="/images/blog/1.jpg" alt="thumbnail" class="w-full rounded-t-lg" />
           <div class="p-8">
-            <div class="mb-2 text-sm text-gray-500">Business</div>
+            <div class="mb-2 text-sm text-gray-500 dark:text-gray-200">Business</div>
             <h2 class="mb-2 text-xl font-semibold md:text-2xl">Here are the 5 working steps on success</h2>
             <p class="mb-4 text-gray-600 dark:text-gray-200">Brownie soufflé jelly beans liquorice wafer shortbread cotton candy tart shortbread. Lemon drops pudding candy canes muffin powder. Sugar plum croissant powder ice cream dessert chupa chups.</p>
           </div>
@@ -28,7 +28,7 @@ export default {
         <a href="#" class="hover:text-blue-600 dark:text-blue-400">
           <img src="/images/blog/2.jpg" alt="thumbnail" class="w-full rounded-t-lg" />
           <div class="p-8">
-            <div class="mb-2 text-sm text-gray-500">Company</div>
+            <div class="mb-2 text-sm text-gray-500 dark:text-gray-200">Company</div>
             <h2 class="mb-2 text-xl font-semibold md:text-2xl">6 Reasons Your Marketing Copy Isn't Converting and How to Fix Each One</h2>
             <p class="mb-4 text-gray-600 dark:text-gray-200">Brownie soufflé jelly beans liquorice wafer shortbread cotton candy tart shortbread. Lemon drops pudding candy canes muffin powder. Sugar plum croissant powder ice cream dessert chupa chups.</p>
           </div>
@@ -38,7 +38,7 @@ export default {
         <a href="#" class="hover:text-blue-600 dark:text-blue-400">
           <img src="/images/blog/3.jpg" alt="thumbnail" class="w-full rounded-t-lg" />
           <div class="p-8">
-            <div class="mb-2 text-sm text-gray-500">Vacation</div>
+            <div class="mb-2 text-sm text-gray-500 dark:text-gray-200">Vacation</div>
             <h2 class="mb-2 text-xl font-semibold md:text-2xl">Take Responsibility for Your Company's Future to Boost Productivity</h2>
             <p class="mb-4 text-gray-600 dark:text-gray-200">Brownie soufflé jelly beans liquorice wafer shortbread cotton candy tart shortbread. Lemon drops pudding candy canes muffin powder. Sugar plum croissant powder ice cream dessert chupa chups.</p>
           </div>

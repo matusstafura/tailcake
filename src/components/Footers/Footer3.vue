@@ -6,21 +6,21 @@
 import Element from "../Element.vue";
 export default {
   components: { Element },
-  name: "Informational 4 columns with divider",
+  name: "Columns with footer",
   data() {
     return {
       code: `
 
-<footer class="p-4 text-gray-200 bg-gradient-to-br from-gray-900 to-gray-600">
+<footer class="p-4">
   <div class="grid flex-grow w-full grid-cols-1 gap-8 pb-8 dark:text-white md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
     <div>
       <h3 class="mb-4 font-semibold uppercase">About us</h3>
-      <p class="leading-6 text-gray-400 dark:text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tempor incididunt.</p>
+      <p class="leading-6 text-gray-500 dark:text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tempor incididunt.</p>
     </div>
 
     <div>
       <h3 class="mb-4 font-semibold uppercase">SUPPORT</h3>
-      <ul class="leading-6 text-gray-400 list-none dark:text-white">
+      <ul class="leading-6 text-gray-500 list-none dark:text-white">
         <li class="mb-2"><a href="#" class="block hover:text-blue-500">Contact Us</a></li>
         <li class="mb-2"><a href="#" class="block hover:text-blue-500">FAQs</a></li>
         <li class="mb-2"><a href="#" class="block hover:text-blue-500">Size Guide</a></li>
@@ -30,7 +30,7 @@ export default {
 
     <div>
       <h3 class="mb-4 font-semibold uppercase">SHOP</h3>
-      <ul class="leading-6 text-gray-400 list-none dark:text-white">
+      <ul class="leading-6 text-gray-500 list-none dark:text-white">
         <li class="mb-2"><a href="#" class="block hover:text-blue-500">Men’s Shopping</a></li>
         <li class="mb-2"><a href="#" class="block hover:text-blue-500">Women’s Shopping</a></li>
         <li class="mb-2"><a href="#" class="block hover:text-blue-500">Kids’ Shopping</a></li>
@@ -40,7 +40,7 @@ export default {
 
     <div>
       <h3 class="mb-4 font-semibold uppercase">COMPANY</h3>
-      <ul class="leading-6 text-gray-400 list-none dark:text-white">
+      <ul class="leading-6 text-gray-500 list-none dark:text-white">
         <li class="mb-2"><a href="#" class="block hover:text-blue-500">Our Story</a></li>
         <li class="mb-2"><a href="#" class="block hover:text-blue-500">Careers</a></li>
         <li class="mb-2"><a href="#" class="block hover:text-blue-500">Terms & Conditions</a></li>
@@ -61,7 +61,7 @@ export default {
 </footer>
 
       `,
-      title: "Informational 4 columns with divider",
+      title: "Columns with footer",
     };
   },
 };

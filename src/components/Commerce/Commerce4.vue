@@ -14,9 +14,9 @@ export default {
   <div class="grid grid-cols-1 gap-x-10 md:grid-cols-2">
     <div><img src="/images/commerce/a2.jpg" alt="" class="rounded-xl" /></div>
     <div class="px-4">
-      <h1 class="pt-3 text-4xl font-semibold tracking-wide text-slate-700 lg:p-0">Retro Camera</h1>
-      <p class="py-4 text-xl text-gray-500">$55.00</p>
-      <p class="py-4 text-gray-500">Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      <h1 class="pt-3 text-4xl font-semibold tracking-wide text-slate-700 lg:p-0 dark:text-gray-200">Retro Camera</h1>
+      <p class="py-4 text-xl text-gray-500 dark:text-gray-200">$55.00</p>
+      <p class="py-4 text-gray-500 dark:text-gray-200">Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
       <div class="mb-6 dark:text-white">
         <p class="pb-4 mb-4 font-semibold text-gray-600 uppercase border-b">Select color</p>
 

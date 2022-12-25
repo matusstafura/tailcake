@@ -21,10 +21,10 @@ export default {
         </h3>
         <p class="text-gray-500 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque velit, corrupti, tenetur quaerat dolore dolores sit, veniam nostrum quae repellat perferendis ex autem eum facilis numquam tempore iste? Perferendis, reprehenderit!</p>
       </div>
-      <div class="flex justify-between p-6 text-sm text-gray-400 border-t">
+      <div class="flex justify-between p-6 text-sm text-gray-500 border-t dark:text-gray-200">
         <div class="flex items-center gap-x-1">
           <svg class="h-4 fill-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17 1c0-.552-.447-1-1-1s-1 .448-1 1v2c0 .552.447 1 1 1s1-.448 1-1v-2zm-12 2c0 .552-.447 1-1 1s-1-.448-1-1v-2c0-.552.447-1 1-1s1 .448 1 1v2zm13 5v10h-16v-10h16zm2-6h-2v1c0 1.103-.897 2-2 2s-2-.897-2-2v-1h-8v1c0 1.103-.897 2-2 2s-2-.897-2-2v-1h-2v18h20v-18zm4 3v19h-22v-2h20v-17h2zm-17 7h-2v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-8 4h-2v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2z" /></svg>
-          2022-05-14 4:42pm
+          2022-05-14
         </div>
         <div class="flex items-center gap-x-1">
           <svg class="h-4 fill-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 3c5.514 0 10 3.476 10 7.747 0 4.272-4.48 7.748-9.986 7.748-.62 0-1.092-.046-1.759-.097-1 .776-1.774 1.403-3.485 1.962.26-1.383-.113-2.259-.514-3.259-2.383-1.505-4.256-3.411-4.256-6.354 0-4.271 4.486-7.747 10-7.747zm0-2c-6.627 0-12 4.363-12 9.747 0 3.13 1.816 5.916 4.641 7.699.867 2.167-1.084 4.008-3.143 4.502 3.085.266 6.776-.481 9.374-2.497 7.08.54 13.128-3.988 13.128-9.704 0-5.384-5.373-9.747-12-9.747z" /></svg>
@@ -44,10 +44,10 @@ export default {
         </h3>
         <p class="text-gray-500 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque velit, corrupti, tenetur quaerat dolore dolores sit, veniam nostrum quae repellat perferendis ex autem eum facilis numquam tempore iste? Perferendis, reprehenderit!</p>
       </div>
-      <div class="flex justify-between p-6 text-sm text-gray-400 border-t">
+      <div class="flex justify-between p-6 text-sm text-gray-500 border-t dark:text-gray-200">
         <div class="flex items-center gap-x-1">
           <svg class="h-4 fill-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17 1c0-.552-.447-1-1-1s-1 .448-1 1v2c0 .552.447 1 1 1s1-.448 1-1v-2zm-12 2c0 .552-.447 1-1 1s-1-.448-1-1v-2c0-.552.447-1 1-1s1 .448 1 1v2zm13 5v10h-16v-10h16zm2-6h-2v1c0 1.103-.897 2-2 2s-2-.897-2-2v-1h-8v1c0 1.103-.897 2-2 2s-2-.897-2-2v-1h-2v18h20v-18zm4 3v19h-22v-2h20v-17h2zm-17 7h-2v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-8 4h-2v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2z" /></svg>
-          2022-05-14 4:42pm
+          2022-05-14
         </div>
         <div class="flex items-center gap-x-1">
           <svg class="h-4 fill-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 3c5.514 0 10 3.476 10 7.747 0 4.272-4.48 7.748-9.986 7.748-.62 0-1.092-.046-1.759-.097-1 .776-1.774 1.403-3.485 1.962.26-1.383-.113-2.259-.514-3.259-2.383-1.505-4.256-3.411-4.256-6.354 0-4.271 4.486-7.747 10-7.747zm0-2c-6.627 0-12 4.363-12 9.747 0 3.13 1.816 5.916 4.641 7.699.867 2.167-1.084 4.008-3.143 4.502 3.085.266 6.776-.481 9.374-2.497 7.08.54 13.128-3.988 13.128-9.704 0-5.384-5.373-9.747-12-9.747z" /></svg>
@@ -67,10 +67,10 @@ export default {
         </h3>
         <p class="text-gray-500 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque velit, corrupti, tenetur quaerat dolore dolores sit, veniam nostrum quae repellat perferendis ex autem eum facilis numquam tempore iste? Perferendis, reprehenderit!</p>
       </div>
-      <div class="flex justify-between p-6 text-sm text-gray-400 border-t">
+      <div class="flex justify-between p-6 text-sm text-gray-500 border-t dark:text-gray-200">
         <div class="flex items-center gap-x-1">
           <svg class="h-4 fill-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17 1c0-.552-.447-1-1-1s-1 .448-1 1v2c0 .552.447 1 1 1s1-.448 1-1v-2zm-12 2c0 .552-.447 1-1 1s-1-.448-1-1v-2c0-.552.447-1 1-1s1 .448 1 1v2zm13 5v10h-16v-10h16zm2-6h-2v1c0 1.103-.897 2-2 2s-2-.897-2-2v-1h-8v1c0 1.103-.897 2-2 2s-2-.897-2-2v-1h-2v18h20v-18zm4 3v19h-22v-2h20v-17h2zm-17 7h-2v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-8 4h-2v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2z" /></svg>
-          2022-05-14 4:42pm
+          2022-05-14
         </div>
         <div class="flex items-center gap-x-1">
           <svg class="h-4 fill-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 3c5.514 0 10 3.476 10 7.747 0 4.272-4.48 7.748-9.986 7.748-.62 0-1.092-.046-1.759-.097-1 .776-1.774 1.403-3.485 1.962.26-1.383-.113-2.259-.514-3.259-2.383-1.505-4.256-3.411-4.256-6.354 0-4.271 4.486-7.747 10-7.747zm0-2c-6.627 0-12 4.363-12 9.747 0 3.13 1.816 5.916 4.641 7.699.867 2.167-1.084 4.008-3.143 4.502 3.085.266 6.776-.481 9.374-2.497 7.08.54 13.128-3.988 13.128-9.704 0-5.384-5.373-9.747-12-9.747z" /></svg>

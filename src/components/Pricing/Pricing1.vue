@@ -36,8 +36,7 @@ export default {
         <span>Weekly Reports</span>
       </li>
     </ul>
-
-    <button class="w-full px-6 py-3 mt-8 text-white uppercase bg-blue-600 rounded shadow-lg hover:bg-blue-500 dark:bg-white dark:text-black">Choose Plan</button>
+    <button class="w-full px-6 py-3 mt-8 text-white uppercase bg-blue-600 rounded shadow-md shadow-lg hover:bg-blue-500 dark:hover:bg-blue-400 text-blue-50 dark:bg-blue-500 dark:text-white">Choose Plan</button>
   </div>
   <div class="relative p-12 -my-4 bg-white border border-blue-400 rounded-lg shadow-md dark:bg-gray-500">
     <span class="absolute left-0 right-0 w-1/2 px-4 py-1 mx-auto text-sm text-center text-white bg-blue-600 -top-4 rounded-xl">MOST POPULAR</span>
@@ -65,8 +64,7 @@ export default {
         <span>Weekly Reports</span>
       </li>
     </ul>
-
-    <button class="w-full px-6 py-3 mt-8 text-white uppercase bg-blue-600 rounded shadow-lg hover:bg-blue-500 dark:bg-white dark:text-black">Choose Plan</button>
+    <button class="w-full px-6 py-3 mt-8 text-white uppercase bg-blue-600 rounded shadow-md shadow-lg hover:bg-blue-500 dark:hover:bg-blue-400 text-blue-50 dark:bg-blue-500 dark:text-white">Choose Plan</button>
   </div>
   <div class="p-12 bg-white border border-gray-100 rounded-lg shadow-md dark:bg-gray-500">
     <div class="mb-4 text-2xl font-light"><span class="text-6xl font-bold">$49</span>/mo</div>
@@ -93,8 +91,7 @@ export default {
         <span>Daily Reports</span>
       </li>
     </ul>
-
-    <button class="w-full px-6 py-3 mt-8 text-white uppercase bg-blue-600 rounded shadow-lg hover:bg-blue-500 dark:bg-white dark:text-black">Choose Plan</button>
+    <button class="w-full px-6 py-3 mt-8 text-white uppercase bg-blue-600 rounded shadow-md shadow-lg hover:bg-blue-500 dark:hover:bg-blue-400 text-blue-50 dark:bg-blue-500 dark:text-white">Choose Plan</button>
   </div>
 </div>
 

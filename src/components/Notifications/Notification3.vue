@@ -18,7 +18,7 @@ export default {
     <div class="text-slate-600">You have an appoitment in an hour.</div>
   </div>
   <hr/>
-  <div class="py-4 text-blue-400">
+  <div class="py-4 text-blue-500">
     <button type="submit" class="hover:font-bold">OK</button>
   </div>
 </div>

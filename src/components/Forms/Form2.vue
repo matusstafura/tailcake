@@ -20,7 +20,7 @@ export default {
     <div>
       <div class="flex justify-between">
         <label for="password" class="mb-2 text-sm font-semibold dark:text-gray-100">Password</label>
-        <a href="/forgot-password" class="text-sm text-blue-600">Forgot your password?</a>
+        <a href="/forgot-password" class="text-sm text-blue-600 dark:text-blue-400">Forgot your password?</a>
       </div>
       <input type="password" placeholder="password" class="w-full p-2 border border-gray-200 rounded-lg bg-slate-50 dark:bg-gray-300" />
     </div>

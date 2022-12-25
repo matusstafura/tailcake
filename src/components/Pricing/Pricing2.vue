@@ -10,7 +10,7 @@ export default {
   data() {
     return {
       code: `
-<section>
+      <section>
   <div class="container grid grid-cols-1 gap-8 mx-auto dark:text-white md:grid-cols-2 lg:grid-cols-3 xl:max-w-screen-xl">
     <div class="flex flex-col justify-between bg-white border rounded-md shadow-lg dark:bg-gray-500">
       <div class="p-8">
@@ -20,7 +20,6 @@ export default {
         </div>
         <div class="text-5xl font-bold"><span class="text-4xl font-medium">$</span>6.99<sub class="bottom-[0.1rem] text-xl font-medium text-gray-500 dark:text-gray-200"> / month</sub></div>
         <hr class="my-5" />
-
         <ul class="mb-4 text-lg leading-10 text-gray-500 dark:text-gray-200">
           <li><span class="font-bold">25</span> Projects</li>
           <li><span class="font-bold">10</span> mySQL Database</li>
@@ -29,7 +28,7 @@ export default {
         </ul>
       </div>
       <div class="p-8 text-center">
-        <button class="px-6 py-3 font-semibold text-white bg-blue-600 rounded shadow-lg hover:bg-blue-500 dark:bg-blue-300 dark:text-white">Select plan</button>
+        <button class="w-full px-6 py-3 mt-8 text-white uppercase bg-blue-600 rounded shadow-md shadow-lg text-blue-50 hover:bg-blue-500 dark:bg-blue-500 dark:text-white dark:hover:bg-blue-400">Select plan</button>
       </div>
     </div>
 
@@ -49,7 +48,7 @@ export default {
         </ul>
       </div>
       <div class="p-8 text-center">
-        <button class="px-6 py-3 font-semibold text-white bg-blue-600 rounded shadow-lg hover:bg-blue-500 dark:bg-blue-300 dark:text-white">Select plan</button>
+        <button class="w-full px-6 py-3 mt-8 text-white uppercase bg-blue-600 rounded shadow-md shadow-lg text-blue-50 hover:bg-blue-500 dark:bg-blue-500 dark:text-white dark:hover:bg-blue-400">Select plan</button>
       </div>
     </div>
 
@@ -69,12 +68,11 @@ export default {
         </ul>
       </div>
       <div class="p-8 text-center">
-        <button class="px-6 py-3 font-semibold text-white bg-blue-600 rounded shadow-lg hover:bg-blue-500 dark:bg-blue-300 dark:text-white">Select plan</button>
+        <button class="w-full px-6 py-3 mt-8 text-white uppercase bg-blue-600 rounded shadow-md shadow-lg text-blue-50 hover:bg-blue-500 dark:bg-blue-500 dark:text-white dark:hover:bg-blue-400">Select plan</button>
       </div>
     </div>
   </div>
 </section>
-
 `,
       title: "Pricing Plan",
     };
