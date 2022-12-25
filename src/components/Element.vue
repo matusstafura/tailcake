@@ -9,10 +9,10 @@
       </div>
       <h2 class="justify-start text-xl font-semibold">{{ title }}</h2>
       <div class="flex mt-0">
-        <button @click="showCode" class="ml-4">
+        <button @click="showCode" class="ml-4" title="show code">
           <ShowCode></ShowCode>
         </button>
-        <button @click="darkMode" class="ml-4">
+        <button @click="darkMode" class="ml-4" title="dark mode">
           <div v-if="!dark">
             <DarkModeLight></DarkModeLight>
           </div>
@@ -20,8 +20,7 @@
             <DarkModeDark></DarkModeDark>
           </div>
         </button>
-
-        <button @click="copyCode" class="ml-4">
+        <button @click="copyCode" class="ml-4" title="copy code">
           <CopyButton></CopyButton>
         </button>
       </div>
