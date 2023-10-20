@@ -10,28 +10,28 @@
   },
   "dependencies": {
     "@highlightjs/vue-plugin": "^2.1.0",
-    "core-js": "^3.31.0",
-    "highlight.js": "^11.8.0",
-    "terser": "^5.18.2",
-    "vue": "^3.2.47",
+    "core-js": "^3.33.0",
+    "highlight.js": "^11.9.0",
+    "terser": "^5.22.0",
+    "vue": "^3.3.5",
     "vue-clipboard2": "^0.3.3",
-    "vue-router": "^4.2.2"
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
-    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/forms": "^0.5.6",
     "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/cli-plugin-router": "^5.0.8",
     "@vue/cli-service": "^5.0.8",
     "@vue/compiler-sfc": "^3.3.4",
     "@vue/eslint-config-prettier": "^7.1.0",
-    "autoprefixer": "^10.4.14",
+    "autoprefixer": "^10.4.16",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^8.7.1",
     "postcss": "^8.4.24",
     "prettier": "^2.8.8",
-    "tailwindcss": "^3.3.2"
+    "tailwindcss": "^3.3.3"
   }
 }
