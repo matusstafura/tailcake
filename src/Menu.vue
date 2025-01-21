@@ -22,16 +22,10 @@
       <Logo></Logo>
     </div>
 
-    <div class="inline-flex">
-      <BuyMeAcoffee></BuyMeAcoffee>
-      <Github></Github>
-    </div>
   </div>
 </template>
 
 <script>
-import BuyMeAcoffee from "./buttons/BuyMeAcoffee.vue";
-import Github from "./buttons/Github.vue";
 import Logo from "./buttons/Logo.vue";
 export default {
   data() {
@@ -45,7 +39,7 @@ export default {
       this.$emit("toggle", this.sidebar);
     },
   },
-  components: { BuyMeAcoffee, Github, Logo },
+  components: { Logo },
 };
 </script>
 

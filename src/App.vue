@@ -7,18 +7,30 @@
     >
       <Menu @toggle="visible"></Menu>
       <router-view></router-view>
+      <hr className="my-6" />
+      <div class="inline-flex items-center gap-x-4">
+        <BuyMeAcoffee></BuyMeAcoffee>
+        <Github></Github>
+        <PersonalWebsite></PersonalWebsite>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import Sidebar from "./Sidebar.vue";
-import Menu from "./Menu.vue";
+  import BuyMeAcoffee from "@/buttons/BuyMeAcoffee.vue";
+  import Github from "@/buttons/Github.vue";
+  import PersonalWebsite from "@/buttons/PersonalWebsite.vue";
+  import Sidebar from "@/Sidebar.vue";
+  import Menu from "@/Menu.vue";
 
 export default {
   components: {
     Sidebar,
     Menu,
+    BuyMeAcoffee,
+    PersonalWebsite,
+    Github,
   },
   data() {
     return {
